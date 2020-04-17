@@ -1,0 +1,1958 @@
+{
+    "pred": "308 of Adware, 818 of Backdoor, 788 of Downloader, 691 of Dropper, 663 of Spyware, 801 of Trojan, 800 of Virus, 816 of Worms",
+    "side": "right",
+    "name": "Root >",
+    "size": 5685.0,
+    "children": [
+        {
+            "pred": "27 of Adware, 10 of Backdoor, 362 of Downloader, 14 of Dropper, 12 of Spyware, 49 of Trojan, 0 of Virus, 9 of Worms",
+            "side": "right",
+            "name": "ldrloaddll ldrgetprocedureaddress seterrormode getadaptersaddresses getadaptersaddresses > 0.0",
+            "type": "numerical",
+            "size": 483.0,
+            "children": [
+                {
+                    "pred": "12 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 1 of Trojan, 0 of Virus, 0 of Worms",
+                    "side": "right",
+                    "name": "regqueryvalueexw regclosekey ntallocatevirtualmemory ntallocatevirtualmemory > 0.0",
+                    "type": "numerical",
+                    "size": 13.0,
+                    "children": [
+                        {
+                            "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 1 of Trojan, 0 of Virus, 0 of Worms",
+                            "side": "right",
+                            "name": "ldrgetprocedureaddress regcreatekeyexa > 0.0",
+                            "type": "numerical",
+                            "size": 1.0
+                        },
+                        {
+                            "pred": "12 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                            "side": "left",
+                            "name": "ldrgetprocedureaddress regcreatekeyexa <= 0.0",
+                            "type": "numerical",
+                            "size": 12.0
+                        }
+                    ]
+                },
+                {
+                    "pred": "15 of Adware, 10 of Backdoor, 362 of Downloader, 14 of Dropper, 12 of Spyware, 48 of Trojan, 0 of Virus, 9 of Worms",
+                    "side": "left",
+                    "name": "regqueryvalueexw regclosekey ntallocatevirtualmemory ntallocatevirtualmemory <= 0.0",
+                    "type": "numerical",
+                    "size": 470.0,
+                    "children": [
+                        {
+                            "pred": "6 of Adware, 1 of Backdoor, 4 of Downloader, 0 of Dropper, 0 of Spyware, 12 of Trojan, 0 of Virus, 0 of Worms",
+                            "side": "right",
+                            "name": "ldrloaddll ldrloaddll > 0.01",
+                            "type": "numerical",
+                            "size": 23.0,
+                            "children": [
+                                {
+                                    "pred": "6 of Adware, 0 of Backdoor, 4 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                    "side": "right",
+                                    "name": "ntdeviceiocontrolfile ntclose ntdeviceiocontrolfile ntclose ntdeviceiocontrolfile ntclose ntdeviceiocontrolfile ntclose ntdeviceiocontrolfile ntclose > 0.02",
+                                    "type": "numerical",
+                                    "size": 10.0,
+                                    "children": [
+                                        {
+                                            "pred": "0 of Adware, 0 of Backdoor, 4 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                            "side": "right",
+                                            "name": "ldrunloaddll ldrunloaddll ntclose > 0.0",
+                                            "type": "numerical",
+                                            "size": 4.0
+                                        },
+                                        {
+                                            "pred": "6 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                            "side": "left",
+                                            "name": "ldrunloaddll ldrunloaddll ntclose <= 0.0",
+                                            "type": "numerical",
+                                            "size": 6.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "pred": "0 of Adware, 1 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 12 of Trojan, 0 of Virus, 0 of Worms",
+                                    "side": "left",
+                                    "name": "ntdeviceiocontrolfile ntclose ntdeviceiocontrolfile ntclose ntdeviceiocontrolfile ntclose ntdeviceiocontrolfile ntclose ntdeviceiocontrolfile ntclose <= 0.02",
+                                    "type": "numerical",
+                                    "size": 13.0,
+                                    "children": [
+                                        {
+                                            "pred": "0 of Adware, 1 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                            "side": "right",
+                                            "name": "ntclose ntopenkey ntopenkey ntopenkey ntqueryvaluekey > 0.0",
+                                            "type": "numerical",
+                                            "size": 1.0
+                                        },
+                                        {
+                                            "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 12 of Trojan, 0 of Virus, 0 of Worms",
+                                            "side": "left",
+                                            "name": "ntclose ntopenkey ntopenkey ntopenkey ntqueryvaluekey <= 0.0",
+                                            "type": "numerical",
+                                            "size": 12.0
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "pred": "9 of Adware, 9 of Backdoor, 358 of Downloader, 14 of Dropper, 12 of Spyware, 36 of Trojan, 0 of Virus, 9 of Worms",
+                            "side": "left",
+                            "name": "ldrloaddll ldrloaddll <= 0.01",
+                            "type": "numerical",
+                            "size": 447.0,
+                            "children": [
+                                {
+                                    "pred": "0 of Adware, 2 of Backdoor, 3 of Downloader, 1 of Dropper, 0 of Spyware, 11 of Trojan, 0 of Virus, 0 of Worms",
+                                    "side": "right",
+                                    "name": "getsysteminfo ldrloaddll ldrgetprocedureaddress ldrgetprocedureaddress > 0.0",
+                                    "type": "numerical",
+                                    "size": 17.0,
+                                    "children": [
+                                        {
+                                            "pred": "0 of Adware, 2 of Backdoor, 3 of Downloader, 1 of Dropper, 0 of Spyware, 1 of Trojan, 0 of Virus, 0 of Worms",
+                                            "side": "right",
+                                            "name": "ntclose ntdeviceiocontrolfile ntclose ntdeviceiocontrolfile ntclose ntdeviceiocontrolfile ntclose ntdeviceiocontrolfile ntclose > 0.01",
+                                            "type": "numerical",
+                                            "size": 7.0,
+                                            "children": [
+                                                {
+                                                    "pred": "0 of Adware, 0 of Backdoor, 3 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                    "side": "right",
+                                                    "name": "regopenkeyexw regqueryvalueexw regclosekey regopenkeyexw > 0.01",
+                                                    "type": "numerical",
+                                                    "size": 3.0
+                                                },
+                                                {
+                                                    "pred": "0 of Adware, 2 of Backdoor, 0 of Downloader, 1 of Dropper, 0 of Spyware, 1 of Trojan, 0 of Virus, 0 of Worms",
+                                                    "side": "left",
+                                                    "name": "regopenkeyexw regqueryvalueexw regclosekey regopenkeyexw <= 0.01",
+                                                    "type": "numerical",
+                                                    "size": 4.0,
+                                                    "children": [
+                                                        {
+                                                            "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 1 of Dropper, 0 of Spyware, 1 of Trojan, 0 of Virus, 0 of Worms",
+                                                            "side": "right",
+                                                            "name": "ldrgetdllhandle ldrgetprocedureaddress regopenkeyexa > 0.0",
+                                                            "type": "numerical",
+                                                            "size": 2.0,
+                                                            "children": [
+                                                                {
+                                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 1 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                                    "side": "right",
+                                                                    "name": "regclosekey regsetvalueexa regclosekey > 0.0",
+                                                                    "type": "numerical",
+                                                                    "size": 1.0
+                                                                },
+                                                                {
+                                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 1 of Trojan, 0 of Virus, 0 of Worms",
+                                                                    "side": "left",
+                                                                    "name": "regclosekey regsetvalueexa regclosekey <= 0.0",
+                                                                    "type": "numerical",
+                                                                    "size": 1.0
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "pred": "0 of Adware, 2 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                            "side": "left",
+                                                            "name": "ldrgetdllhandle ldrgetprocedureaddress regopenkeyexa <= 0.0",
+                                                            "type": "numerical",
+                                                            "size": 2.0
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 10 of Trojan, 0 of Virus, 0 of Worms",
+                                            "side": "left",
+                                            "name": "ntclose ntdeviceiocontrolfile ntclose ntdeviceiocontrolfile ntclose ntdeviceiocontrolfile ntclose ntdeviceiocontrolfile ntclose <= 0.01",
+                                            "type": "numerical",
+                                            "size": 10.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "pred": "9 of Adware, 7 of Backdoor, 355 of Downloader, 13 of Dropper, 12 of Spyware, 25 of Trojan, 0 of Virus, 9 of Worms",
+                                    "side": "left",
+                                    "name": "getsysteminfo ldrloaddll ldrgetprocedureaddress ldrgetprocedureaddress <= 0.0",
+                                    "type": "numerical",
+                                    "size": 430.0,
+                                    "children": [
+                                        {
+                                            "pred": "0 of Adware, 0 of Backdoor, 6 of Downloader, 8 of Dropper, 2 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                            "side": "right",
+                                            "name": "ntcreatefile ntwritefile ntclose > 0.0",
+                                            "type": "numerical",
+                                            "size": 16.0,
+                                            "children": [
+                                                {
+                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 8 of Dropper, 2 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                    "side": "right",
+                                                    "name": "ntmapviewofsection > 0.0",
+                                                    "type": "numerical",
+                                                    "size": 10.0,
+                                                    "children": [
+                                                        {
+                                                            "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 8 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                            "side": "right",
+                                                            "name": "ldrloaddll ldrgetprocedureaddress ldrgetprocedureaddress ldrloaddll ldrgetprocedureaddress > 0.0",
+                                                            "type": "numerical",
+                                                            "size": 8.0
+                                                        },
+                                                        {
+                                                            "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 2 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                            "side": "left",
+                                                            "name": "ldrloaddll ldrgetprocedureaddress ldrgetprocedureaddress ldrloaddll ldrgetprocedureaddress <= 0.0",
+                                                            "type": "numerical",
+                                                            "size": 2.0
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "pred": "0 of Adware, 0 of Backdoor, 6 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                    "side": "left",
+                                                    "name": "ntmapviewofsection <= 0.0",
+                                                    "type": "numerical",
+                                                    "size": 6.0
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "pred": "9 of Adware, 7 of Backdoor, 349 of Downloader, 5 of Dropper, 10 of Spyware, 25 of Trojan, 0 of Virus, 9 of Worms",
+                                            "side": "left",
+                                            "name": "ntcreatefile ntwritefile ntclose <= 0.0",
+                                            "type": "numerical",
+                                            "size": 414.0,
+                                            "children": [
+                                                {
+                                                    "pred": "1 of Adware, 1 of Backdoor, 1 of Downloader, 0 of Dropper, 0 of Spyware, 2 of Trojan, 0 of Virus, 4 of Worms",
+                                                    "side": "right",
+                                                    "name": "getsystemmetrics getsystemmetrics ldrgetdllhandle ldrgetprocedureaddress > 0.0",
+                                                    "type": "numerical",
+                                                    "size": 9.0,
+                                                    "children": [
+                                                        {
+                                                            "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 4 of Worms",
+                                                            "side": "right",
+                                                            "name": "ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetdllhandle > 0.0",
+                                                            "type": "numerical",
+                                                            "size": 4.0
+                                                        },
+                                                        {
+                                                            "pred": "1 of Adware, 1 of Backdoor, 1 of Downloader, 0 of Dropper, 0 of Spyware, 2 of Trojan, 0 of Virus, 0 of Worms",
+                                                            "side": "left",
+                                                            "name": "ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetdllhandle <= 0.0",
+                                                            "type": "numerical",
+                                                            "size": 5.0,
+                                                            "children": [
+                                                                {
+                                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 2 of Trojan, 0 of Virus, 0 of Worms",
+                                                                    "side": "right",
+                                                                    "name": "ldrgetprocedureaddress ldrgetprocedureaddress ldrgetdllhandle > 0.0",
+                                                                    "type": "numerical",
+                                                                    "size": 2.0
+                                                                },
+                                                                {
+                                                                    "pred": "1 of Adware, 1 of Backdoor, 1 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                                    "side": "left",
+                                                                    "name": "ldrgetprocedureaddress ldrgetprocedureaddress ldrgetdllhandle <= 0.0",
+                                                                    "type": "numerical",
+                                                                    "size": 3.0,
+                                                                    "children": [
+                                                                        {
+                                                                            "pred": "0 of Adware, 0 of Backdoor, 1 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                                            "side": "right",
+                                                                            "name": "loadresource drawtextexw getsystemmetrics getsystemmetrics getsystemmetrics getsystemmetrics getsystemmetrics getsystemmetrics getsystemmetrics getsystemmetrics > 0.0",
+                                                                            "type": "numerical",
+                                                                            "size": 1.0
+                                                                        },
+                                                                        {
+                                                                            "pred": "1 of Adware, 1 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                                            "side": "left",
+                                                                            "name": "loadresource drawtextexw getsystemmetrics getsystemmetrics getsystemmetrics getsystemmetrics getsystemmetrics getsystemmetrics getsystemmetrics getsystemmetrics <= 0.0",
+                                                                            "type": "numerical",
+                                                                            "size": 2.0,
+                                                                            "children": [
+                                                                                {
+                                                                                    "pred": "0 of Adware, 1 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                                                    "side": "right",
+                                                                                    "name": "regopenkeyexw regqueryvalueexw regclosekey regclosekey ntopenkey ntclose > 0.01",
+                                                                                    "type": "numerical",
+                                                                                    "size": 1.0
+                                                                                },
+                                                                                {
+                                                                                    "pred": "1 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                                                    "side": "left",
+                                                                                    "name": "regopenkeyexw regqueryvalueexw regclosekey regclosekey ntopenkey ntclose <= 0.01",
+                                                                                    "type": "numerical",
+                                                                                    "size": 1.0
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "pred": "8 of Adware, 6 of Backdoor, 348 of Downloader, 5 of Dropper, 10 of Spyware, 23 of Trojan, 0 of Virus, 5 of Worms",
+                                                    "side": "left",
+                                                    "name": "getsystemmetrics getsystemmetrics ldrgetdllhandle ldrgetprocedureaddress <= 0.0",
+                                                    "type": "numerical",
+                                                    "size": 405.0,
+                                                    "children": [
+                                                        {
+                                                            "pred": "2 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 2 of Spyware, 1 of Trojan, 0 of Virus, 1 of Worms",
+                                                            "side": "right",
+                                                            "name": "getcomputernamea > 0.0",
+                                                            "type": "numerical",
+                                                            "size": 6.0,
+                                                            "children": [
+                                                                {
+                                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 2 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                                    "side": "right",
+                                                                    "name": "ntclose findfirstfileexw ntclose ntcreatefile getfiletype ntreadfile ntclose findfirstfileexw findfirstfileexw findfirstfileexw > 0.0",
+                                                                    "type": "numerical",
+                                                                    "size": 2.0
+                                                                },
+                                                                {
+                                                                    "pred": "2 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 1 of Trojan, 0 of Virus, 1 of Worms",
+                                                                    "side": "left",
+                                                                    "name": "ntclose findfirstfileexw ntclose ntcreatefile getfiletype ntreadfile ntclose findfirstfileexw findfirstfileexw findfirstfileexw <= 0.0",
+                                                                    "type": "numerical",
+                                                                    "size": 4.0,
+                                                                    "children": [
+                                                                        {
+                                                                            "pred": "2 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                                            "side": "right",
+                                                                            "name": "ntclose ntclose ntclose ntclose regopenkeyexw regqueryvalueexw > 0.0",
+                                                                            "type": "numerical",
+                                                                            "size": 2.0
+                                                                        },
+                                                                        {
+                                                                            "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 1 of Trojan, 0 of Virus, 1 of Worms",
+                                                                            "side": "left",
+                                                                            "name": "ntclose ntclose ntclose ntclose regopenkeyexw regqueryvalueexw <= 0.0",
+                                                                            "type": "numerical",
+                                                                            "size": 2.0,
+                                                                            "children": [
+                                                                                {
+                                                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 1 of Worms",
+                                                                                    "side": "right",
+                                                                                    "name": "setfileattributesw > 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 1.0
+                                                                                },
+                                                                                {
+                                                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 1 of Trojan, 0 of Virus, 0 of Worms",
+                                                                                    "side": "left",
+                                                                                    "name": "setfileattributesw <= 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 1.0
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "pred": "6 of Adware, 6 of Backdoor, 348 of Downloader, 5 of Dropper, 8 of Spyware, 22 of Trojan, 0 of Virus, 4 of Worms",
+                                                            "side": "left",
+                                                            "name": "getcomputernamea <= 0.0",
+                                                            "type": "numerical",
+                                                            "size": 399.0,
+                                                            "children": [
+                                                                {
+                                                                    "pred": "1 of Adware, 0 of Backdoor, 1 of Downloader, 0 of Dropper, 3 of Spyware, 2 of Trojan, 0 of Virus, 0 of Worms",
+                                                                    "side": "right",
+                                                                    "name": "getcursorpos seterrormode seterrormode findresourcea findresourcea > 0.01",
+                                                                    "type": "numerical",
+                                                                    "size": 7.0,
+                                                                    "children": [
+                                                                        {
+                                                                            "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 3 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                                            "side": "right",
+                                                                            "name": "ntcreatefile getfiletype ntreadfile ntclose findfirstfileexw findfirstfileexw > 0.0",
+                                                                            "type": "numerical",
+                                                                            "size": 3.0
+                                                                        },
+                                                                        {
+                                                                            "pred": "1 of Adware, 0 of Backdoor, 1 of Downloader, 0 of Dropper, 0 of Spyware, 2 of Trojan, 0 of Virus, 0 of Worms",
+                                                                            "side": "left",
+                                                                            "name": "ntcreatefile getfiletype ntreadfile ntclose findfirstfileexw findfirstfileexw <= 0.0",
+                                                                            "type": "numerical",
+                                                                            "size": 4.0,
+                                                                            "children": [
+                                                                                {
+                                                                                    "pred": "1 of Adware, 0 of Backdoor, 1 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                                                    "side": "right",
+                                                                                    "name": "ldrgetprocedureaddress regcreatekeyexw regsetvalueexa regsetvalueexa regsetvalueexa regsetvalueexw regclosekey regopenkeyexw regcreatekeyexw regclosekey > 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 2.0
+                                                                                },
+                                                                                {
+                                                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 2 of Trojan, 0 of Virus, 0 of Worms",
+                                                                                    "side": "left",
+                                                                                    "name": "ldrgetprocedureaddress regcreatekeyexw regsetvalueexa regsetvalueexa regsetvalueexa regsetvalueexw regclosekey regopenkeyexw regcreatekeyexw regclosekey <= 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 2.0
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "pred": "5 of Adware, 6 of Backdoor, 347 of Downloader, 5 of Dropper, 5 of Spyware, 20 of Trojan, 0 of Virus, 4 of Worms",
+                                                                    "side": "left",
+                                                                    "name": "getcursorpos seterrormode seterrormode findresourcea findresourcea <= 0.01",
+                                                                    "type": "numerical",
+                                                                    "size": 392.0,
+                                                                    "children": [
+                                                                        {
+                                                                            "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 3 of Trojan, 0 of Virus, 0 of Worms",
+                                                                            "side": "right",
+                                                                            "name": "ldrgetdllhandle ldrgetprocedureaddress ntallocatevirtualmemory > 0.01",
+                                                                            "type": "numerical",
+                                                                            "size": 3.0
+                                                                        },
+                                                                        {
+                                                                            "pred": "5 of Adware, 6 of Backdoor, 347 of Downloader, 5 of Dropper, 5 of Spyware, 17 of Trojan, 0 of Virus, 4 of Worms",
+                                                                            "side": "left",
+                                                                            "name": "ldrgetdllhandle ldrgetprocedureaddress ntallocatevirtualmemory <= 0.01",
+                                                                            "type": "numerical",
+                                                                            "size": 389.0,
+                                                                            "children": [
+                                                                                {
+                                                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 2 of Spyware, 1 of Trojan, 0 of Virus, 0 of Worms",
+                                                                                    "side": "right",
+                                                                                    "name": "ntcreatefile getfiletype ntwritefile > 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 3.0
+                                                                                },
+                                                                                {
+                                                                                    "pred": "5 of Adware, 6 of Backdoor, 347 of Downloader, 5 of Dropper, 3 of Spyware, 16 of Trojan, 0 of Virus, 4 of Worms",
+                                                                                    "side": "left",
+                                                                                    "name": "ntcreatefile getfiletype ntwritefile <= 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 386.0
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "pred": "281 of Adware, 808 of Backdoor, 426 of Downloader, 677 of Dropper, 651 of Spyware, 752 of Trojan, 800 of Virus, 807 of Worms",
+            "side": "left",
+            "name": "ldrloaddll ldrgetprocedureaddress seterrormode getadaptersaddresses getadaptersaddresses <= 0.0",
+            "type": "numerical",
+            "size": 5202.0,
+            "children": [
+                {
+                    "pred": "0 of Adware, 11 of Backdoor, 0 of Downloader, 1 of Dropper, 0 of Spyware, 0 of Trojan, 162 of Virus, 2 of Worms",
+                    "side": "right",
+                    "name": "createthread getsystemtimeasfiletime > 0.0",
+                    "type": "numerical",
+                    "size": 176.0,
+                    "children": [
+                        {
+                            "pred": "0 of Adware, 11 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 2 of Worms",
+                            "side": "right",
+                            "name": "ldrgetprocedureaddress ldrgetprocedureaddress ldrloaddll ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress > 0.0",
+                            "type": "numerical",
+                            "size": 13.0,
+                            "children": [
+                                {
+                                    "pred": "0 of Adware, 11 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                    "side": "right",
+                                    "name": "regqueryvalueexa ldrgetprocedureaddress > 0.0",
+                                    "type": "numerical",
+                                    "size": 11.0
+                                },
+                                {
+                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 2 of Worms",
+                                    "side": "left",
+                                    "name": "regqueryvalueexa ldrgetprocedureaddress <= 0.0",
+                                    "type": "numerical",
+                                    "size": 2.0
+                                }
+                            ]
+                        },
+                        {
+                            "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 1 of Dropper, 0 of Spyware, 0 of Trojan, 162 of Virus, 0 of Worms",
+                            "side": "left",
+                            "name": "ldrgetprocedureaddress ldrgetprocedureaddress ldrloaddll ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress <= 0.0",
+                            "type": "numerical",
+                            "size": 163.0,
+                            "children": [
+                                {
+                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 1 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                    "side": "right",
+                                    "name": "regclosekey regclosekey regclosekey regclosekey regclosekey regclosekey regclosekey regclosekey regclosekey > 0.17",
+                                    "type": "numerical",
+                                    "size": 1.0
+                                },
+                                {
+                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 162 of Virus, 0 of Worms",
+                                    "side": "left",
+                                    "name": "regclosekey regclosekey regclosekey regclosekey regclosekey regclosekey regclosekey regclosekey regclosekey <= 0.17",
+                                    "type": "numerical",
+                                    "size": 162.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "pred": "281 of Adware, 797 of Backdoor, 426 of Downloader, 676 of Dropper, 651 of Spyware, 752 of Trojan, 638 of Virus, 805 of Worms",
+                    "side": "left",
+                    "name": "createthread getsystemtimeasfiletime <= 0.0",
+                    "type": "numerical",
+                    "size": 5026.0,
+                    "children": [
+                        {
+                            "pred": "1 of Adware, 35 of Backdoor, 6 of Downloader, 17 of Dropper, 15 of Spyware, 20 of Trojan, 222 of Virus, 96 of Worms",
+                            "side": "right",
+                            "name": "findfirstfileexw ntquerydirectoryfile > 0.0",
+                            "type": "numerical",
+                            "size": 412.0,
+                            "children": [
+                                {
+                                    "pred": "0 of Adware, 26 of Backdoor, 2 of Downloader, 4 of Dropper, 4 of Spyware, 10 of Trojan, 14 of Virus, 59 of Worms",
+                                    "side": "right",
+                                    "name": "ldrgetprocedureaddress ntallocatevirtualmemory ntfreevirtualmemory ntallocatevirtualmemory > 0.0",
+                                    "type": "numerical",
+                                    "size": 119.0,
+                                    "children": [
+                                        {
+                                            "pred": "0 of Adware, 21 of Backdoor, 1 of Downloader, 1 of Dropper, 4 of Spyware, 2 of Trojan, 1 of Virus, 1 of Worms",
+                                            "side": "right",
+                                            "name": "ntopenmutant > 0.0",
+                                            "type": "numerical",
+                                            "size": 31.0,
+                                            "children": [
+                                                {
+                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 4 of Spyware, 0 of Trojan, 1 of Virus, 0 of Worms",
+                                                    "side": "right",
+                                                    "name": "regopenkeyexw regqueryvalueexw regclosekey ldrgetdllhandle > 0.0",
+                                                    "type": "numerical",
+                                                    "size": 5.0,
+                                                    "children": [
+                                                        {
+                                                            "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 1 of Virus, 0 of Worms",
+                                                            "side": "right",
+                                                            "name": "getforegroundwindow > 0.02",
+                                                            "type": "numerical",
+                                                            "size": 1.0
+                                                        },
+                                                        {
+                                                            "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 4 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                            "side": "left",
+                                                            "name": "getforegroundwindow <= 0.02",
+                                                            "type": "numerical",
+                                                            "size": 4.0
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "pred": "0 of Adware, 21 of Backdoor, 1 of Downloader, 1 of Dropper, 0 of Spyware, 2 of Trojan, 0 of Virus, 1 of Worms",
+                                                    "side": "left",
+                                                    "name": "regopenkeyexw regqueryvalueexw regclosekey ldrgetdllhandle <= 0.0",
+                                                    "type": "numerical",
+                                                    "size": 26.0,
+                                                    "children": [
+                                                        {
+                                                            "pred": "0 of Adware, 21 of Backdoor, 1 of Downloader, 0 of Dropper, 0 of Spyware, 1 of Trojan, 0 of Virus, 0 of Worms",
+                                                            "side": "right",
+                                                            "name": "ldrloaddll ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress > 0.0",
+                                                            "type": "numerical",
+                                                            "size": 23.0,
+                                                            "children": [
+                                                                {
+                                                                    "pred": "0 of Adware, 0 of Backdoor, 1 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                                    "side": "right",
+                                                                    "name": "ntqueryattributesfile ntqueryattributesfile > 0.0",
+                                                                    "type": "numerical",
+                                                                    "size": 1.0
+                                                                },
+                                                                {
+                                                                    "pred": "0 of Adware, 21 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 1 of Trojan, 0 of Virus, 0 of Worms",
+                                                                    "side": "left",
+                                                                    "name": "ntqueryattributesfile ntqueryattributesfile <= 0.0",
+                                                                    "type": "numerical",
+                                                                    "size": 22.0,
+                                                                    "children": [
+                                                                        {
+                                                                            "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 1 of Trojan, 0 of Virus, 0 of Worms",
+                                                                            "side": "right",
+                                                                            "name": "ntclose loadstringw loadstringw ntclose ntopenkey regopenkeyexw regclosekey regenumkeyexw regclosekey regopenkeyexw > 0.01",
+                                                                            "type": "numerical",
+                                                                            "size": 1.0
+                                                                        },
+                                                                        {
+                                                                            "pred": "0 of Adware, 21 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                                            "side": "left",
+                                                                            "name": "ntclose loadstringw loadstringw ntclose ntopenkey regopenkeyexw regclosekey regenumkeyexw regclosekey regopenkeyexw <= 0.01",
+                                                                            "type": "numerical",
+                                                                            "size": 21.0
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 1 of Dropper, 0 of Spyware, 1 of Trojan, 0 of Virus, 1 of Worms",
+                                                            "side": "left",
+                                                            "name": "ldrloaddll ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress <= 0.0",
+                                                            "type": "numerical",
+                                                            "size": 3.0,
+                                                            "children": [
+                                                                {
+                                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 1 of Worms",
+                                                                    "side": "right",
+                                                                    "name": "ntopenprocess ntclose regopenkeyexw regopenkeyexw regclosekey regqueryvalueexw regclosekey > 0.0",
+                                                                    "type": "numerical",
+                                                                    "size": 1.0
+                                                                },
+                                                                {
+                                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 1 of Dropper, 0 of Spyware, 1 of Trojan, 0 of Virus, 0 of Worms",
+                                                                    "side": "left",
+                                                                    "name": "ntopenprocess ntclose regopenkeyexw regopenkeyexw regclosekey regqueryvalueexw regclosekey <= 0.0",
+                                                                    "type": "numerical",
+                                                                    "size": 2.0,
+                                                                    "children": [
+                                                                        {
+                                                                            "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 1 of Trojan, 0 of Virus, 0 of Worms",
+                                                                            "side": "right",
+                                                                            "name": "loadresource findresourceexw loadresource drawtextexw getsystemmetrics getsystemmetrics getsystemmetrics > 0.0",
+                                                                            "type": "numerical",
+                                                                            "size": 1.0
+                                                                        },
+                                                                        {
+                                                                            "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 1 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                                            "side": "left",
+                                                                            "name": "loadresource findresourceexw loadresource drawtextexw getsystemmetrics getsystemmetrics getsystemmetrics <= 0.0",
+                                                                            "type": "numerical",
+                                                                            "size": 1.0
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "pred": "0 of Adware, 5 of Backdoor, 1 of Downloader, 3 of Dropper, 0 of Spyware, 8 of Trojan, 13 of Virus, 58 of Worms",
+                                            "side": "left",
+                                            "name": "ntopenmutant <= 0.0",
+                                            "type": "numerical",
+                                            "size": 88.0,
+                                            "children": [
+                                                {
+                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 6 of Virus, 0 of Worms",
+                                                    "side": "right",
+                                                    "name": "ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ntprotectvirtualmemory > 0.0",
+                                                    "type": "numerical",
+                                                    "size": 6.0
+                                                },
+                                                {
+                                                    "pred": "0 of Adware, 5 of Backdoor, 1 of Downloader, 3 of Dropper, 0 of Spyware, 8 of Trojan, 7 of Virus, 58 of Worms",
+                                                    "side": "left",
+                                                    "name": "ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ntprotectvirtualmemory <= 0.0",
+                                                    "type": "numerical",
+                                                    "size": 82.0,
+                                                    "children": [
+                                                        {
+                                                            "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 2 of Dropper, 0 of Spyware, 4 of Trojan, 0 of Virus, 0 of Worms",
+                                                            "side": "right",
+                                                            "name": "ntclose ntopenkey regopenkeyexw regclosekey > 0.0",
+                                                            "type": "numerical",
+                                                            "size": 6.0,
+                                                            "children": [
+                                                                {
+                                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 4 of Trojan, 0 of Virus, 0 of Worms",
+                                                                    "side": "right",
+                                                                    "name": "getsystemmetrics getsystemmetrics drawtextexw > 0.0",
+                                                                    "type": "numerical",
+                                                                    "size": 4.0
+                                                                },
+                                                                {
+                                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 2 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                                    "side": "left",
+                                                                    "name": "getsystemmetrics getsystemmetrics drawtextexw <= 0.0",
+                                                                    "type": "numerical",
+                                                                    "size": 2.0
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "pred": "0 of Adware, 5 of Backdoor, 1 of Downloader, 1 of Dropper, 0 of Spyware, 4 of Trojan, 7 of Virus, 58 of Worms",
+                                                            "side": "left",
+                                                            "name": "ntclose ntopenkey regopenkeyexw regclosekey <= 0.0",
+                                                            "type": "numerical",
+                                                            "size": 76.0,
+                                                            "children": [
+                                                                {
+                                                                    "pred": "0 of Adware, 0 of Backdoor, 1 of Downloader, 1 of Dropper, 0 of Spyware, 2 of Trojan, 2 of Virus, 51 of Worms",
+                                                                    "side": "right",
+                                                                    "name": "ntreadfile > 0.0",
+                                                                    "type": "numerical",
+                                                                    "size": 57.0,
+                                                                    "children": [
+                                                                        {
+                                                                            "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 1 of Dropper, 0 of Spyware, 0 of Trojan, 2 of Virus, 0 of Worms",
+                                                                            "side": "right",
+                                                                            "name": "ldrgetprocedureaddress ldrloaddll ldrgetprocedureaddress regopenkeyexw > 0.0",
+                                                                            "type": "numerical",
+                                                                            "size": 3.0,
+                                                                            "children": [
+                                                                                {
+                                                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 1 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                                                    "side": "right",
+                                                                                    "name": "getvolumepathnamesforvolumenamew getvolumepathnamesforvolumenamew getvolumepathnamesforvolumenamew getvolumepathnamesforvolumenamew ntclose > 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 1.0
+                                                                                },
+                                                                                {
+                                                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 2 of Virus, 0 of Worms",
+                                                                                    "side": "left",
+                                                                                    "name": "getvolumepathnamesforvolumenamew getvolumepathnamesforvolumenamew getvolumepathnamesforvolumenamew getvolumepathnamesforvolumenamew ntclose <= 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 2.0
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "pred": "0 of Adware, 0 of Backdoor, 1 of Downloader, 0 of Dropper, 0 of Spyware, 2 of Trojan, 0 of Virus, 51 of Worms",
+                                                                            "side": "left",
+                                                                            "name": "ldrgetprocedureaddress ldrloaddll ldrgetprocedureaddress regopenkeyexw <= 0.0",
+                                                                            "type": "numerical",
+                                                                            "size": 54.0,
+                                                                            "children": [
+                                                                                {
+                                                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 2 of Trojan, 0 of Virus, 0 of Worms",
+                                                                                    "side": "right",
+                                                                                    "name": "createprocessinternalw > 0.01",
+                                                                                    "type": "numerical",
+                                                                                    "size": 2.0
+                                                                                },
+                                                                                {
+                                                                                    "pred": "0 of Adware, 0 of Backdoor, 1 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 51 of Worms",
+                                                                                    "side": "left",
+                                                                                    "name": "createprocessinternalw <= 0.01",
+                                                                                    "type": "numerical",
+                                                                                    "size": 52.0
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "pred": "0 of Adware, 5 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 2 of Trojan, 5 of Virus, 7 of Worms",
+                                                                    "side": "left",
+                                                                    "name": "ntreadfile <= 0.0",
+                                                                    "type": "numerical",
+                                                                    "size": 19.0,
+                                                                    "children": [
+                                                                        {
+                                                                            "pred": "0 of Adware, 4 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                                            "side": "right",
+                                                                            "name": "regclosekey ntallocatevirtualmemory > 0.0",
+                                                                            "type": "numerical",
+                                                                            "size": 4.0
+                                                                        },
+                                                                        {
+                                                                            "pred": "0 of Adware, 1 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 2 of Trojan, 5 of Virus, 7 of Worms",
+                                                                            "side": "left",
+                                                                            "name": "regclosekey ntallocatevirtualmemory <= 0.0",
+                                                                            "type": "numerical",
+                                                                            "size": 15.0,
+                                                                            "children": [
+                                                                                {
+                                                                                    "pred": "0 of Adware, 1 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 1 of Virus, 7 of Worms",
+                                                                                    "side": "right",
+                                                                                    "name": "ntquerydirectoryfile ntquerydirectoryfile > 0.01",
+                                                                                    "type": "numerical",
+                                                                                    "size": 9.0
+                                                                                },
+                                                                                {
+                                                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 2 of Trojan, 4 of Virus, 0 of Worms",
+                                                                                    "side": "left",
+                                                                                    "name": "ntquerydirectoryfile ntquerydirectoryfile <= 0.01",
+                                                                                    "type": "numerical",
+                                                                                    "size": 6.0
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "pred": "1 of Adware, 9 of Backdoor, 4 of Downloader, 13 of Dropper, 11 of Spyware, 10 of Trojan, 208 of Virus, 37 of Worms",
+                                    "side": "left",
+                                    "name": "ldrgetprocedureaddress ntallocatevirtualmemory ntfreevirtualmemory ntallocatevirtualmemory <= 0.0",
+                                    "type": "numerical",
+                                    "size": 293.0,
+                                    "children": [
+                                        {
+                                            "pred": "0 of Adware, 6 of Backdoor, 1 of Downloader, 3 of Dropper, 4 of Spyware, 3 of Trojan, 22 of Virus, 26 of Worms",
+                                            "side": "right",
+                                            "name": "copyfilea > 0.0",
+                                            "type": "numerical",
+                                            "size": 65.0,
+                                            "children": [
+                                                {
+                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 2 of Spyware, 0 of Trojan, 14 of Virus, 0 of Worms",
+                                                    "side": "right",
+                                                    "name": "findresourcea loadresource > 0.0",
+                                                    "type": "numerical",
+                                                    "size": 16.0,
+                                                    "children": [
+                                                        {
+                                                            "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 14 of Virus, 0 of Worms",
+                                                            "side": "right",
+                                                            "name": "ntallocatevirtualmemory ntfreevirtualmemory ntallocatevirtualmemory > 0.0",
+                                                            "type": "numerical",
+                                                            "size": 14.0
+                                                        },
+                                                        {
+                                                            "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 2 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                            "side": "left",
+                                                            "name": "ntallocatevirtualmemory ntfreevirtualmemory ntallocatevirtualmemory <= 0.0",
+                                                            "type": "numerical",
+                                                            "size": 2.0
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "pred": "0 of Adware, 6 of Backdoor, 1 of Downloader, 3 of Dropper, 2 of Spyware, 3 of Trojan, 8 of Virus, 26 of Worms",
+                                                    "side": "left",
+                                                    "name": "findresourcea loadresource <= 0.0",
+                                                    "type": "numerical",
+                                                    "size": 49.0,
+                                                    "children": [
+                                                        {
+                                                            "pred": "0 of Adware, 3 of Backdoor, 1 of Downloader, 0 of Dropper, 1 of Spyware, 1 of Trojan, 5 of Virus, 26 of Worms",
+                                                            "side": "right",
+                                                            "name": "findfirstfileexw ntquerydirectoryfile ntquerydirectoryfile > 0.0",
+                                                            "type": "numerical",
+                                                            "size": 37.0,
+                                                            "children": [
+                                                                {
+                                                                    "pred": "0 of Adware, 1 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 1 of Trojan, 4 of Virus, 1 of Worms",
+                                                                    "side": "right",
+                                                                    "name": "__exception__ > 0.0",
+                                                                    "type": "numerical",
+                                                                    "size": 7.0,
+                                                                    "children": [
+                                                                        {
+                                                                            "pred": "0 of Adware, 1 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 1 of Trojan, 0 of Virus, 1 of Worms",
+                                                                            "side": "right",
+                                                                            "name": "ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetdllhandle ldrgetprocedureaddress > 0.0",
+                                                                            "type": "numerical",
+                                                                            "size": 3.0,
+                                                                            "children": [
+                                                                                {
+                                                                                    "pred": "0 of Adware, 1 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                                                    "side": "right",
+                                                                                    "name": "ntopendirectoryobject > 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 1.0
+                                                                                },
+                                                                                {
+                                                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 1 of Trojan, 0 of Virus, 1 of Worms",
+                                                                                    "side": "left",
+                                                                                    "name": "ntopendirectoryobject <= 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 2.0
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 4 of Virus, 0 of Worms",
+                                                                            "side": "left",
+                                                                            "name": "ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetdllhandle ldrgetprocedureaddress <= 0.0",
+                                                                            "type": "numerical",
+                                                                            "size": 4.0
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "pred": "0 of Adware, 2 of Backdoor, 1 of Downloader, 0 of Dropper, 1 of Spyware, 0 of Trojan, 1 of Virus, 25 of Worms",
+                                                                    "side": "left",
+                                                                    "name": "__exception__ <= 0.0",
+                                                                    "type": "numerical",
+                                                                    "size": 30.0,
+                                                                    "children": [
+                                                                        {
+                                                                            "pred": "0 of Adware, 1 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 25 of Worms",
+                                                                            "side": "right",
+                                                                            "name": "ldrgetprocedureaddress > 0.0",
+                                                                            "type": "numerical",
+                                                                            "size": 26.0,
+                                                                            "children": [
+                                                                                {
+                                                                                    "pred": "0 of Adware, 1 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                                                    "side": "right",
+                                                                                    "name": "ldrloaddll ldrgetprocedureaddress ldrgetprocedureaddress ntcreatethreadex > 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 1.0
+                                                                                },
+                                                                                {
+                                                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 25 of Worms",
+                                                                                    "side": "left",
+                                                                                    "name": "ldrloaddll ldrgetprocedureaddress ldrgetprocedureaddress ntcreatethreadex <= 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 25.0
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "pred": "0 of Adware, 1 of Backdoor, 1 of Downloader, 0 of Dropper, 1 of Spyware, 0 of Trojan, 1 of Virus, 0 of Worms",
+                                                                            "side": "left",
+                                                                            "name": "ldrgetprocedureaddress <= 0.0",
+                                                                            "type": "numerical",
+                                                                            "size": 4.0,
+                                                                            "children": [
+                                                                                {
+                                                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 1 of Virus, 0 of Worms",
+                                                                                    "side": "right",
+                                                                                    "name": "ntquerydirectoryfile ntquerydirectoryfile ntallocatevirtualmemory ntquerydirectoryfile ntquerydirectoryfile > 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 1.0
+                                                                                },
+                                                                                {
+                                                                                    "pred": "0 of Adware, 1 of Backdoor, 1 of Downloader, 0 of Dropper, 1 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                                                    "side": "left",
+                                                                                    "name": "ntquerydirectoryfile ntquerydirectoryfile ntallocatevirtualmemory ntquerydirectoryfile ntquerydirectoryfile <= 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 3.0
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "pred": "0 of Adware, 3 of Backdoor, 0 of Downloader, 3 of Dropper, 1 of Spyware, 2 of Trojan, 3 of Virus, 0 of Worms",
+                                                            "side": "left",
+                                                            "name": "findfirstfileexw ntquerydirectoryfile ntquerydirectoryfile <= 0.0",
+                                                            "type": "numerical",
+                                                            "size": 12.0,
+                                                            "children": [
+                                                                {
+                                                                    "pred": "0 of Adware, 3 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                                    "side": "right",
+                                                                    "name": "ntclose findfirstfileexw ntquerydirectoryfile ntquerydirectoryfile > 0.0",
+                                                                    "type": "numerical",
+                                                                    "size": 3.0
+                                                                },
+                                                                {
+                                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 3 of Dropper, 1 of Spyware, 2 of Trojan, 3 of Virus, 0 of Worms",
+                                                                    "side": "left",
+                                                                    "name": "ntclose findfirstfileexw ntquerydirectoryfile ntquerydirectoryfile <= 0.0",
+                                                                    "type": "numerical",
+                                                                    "size": 9.0,
+                                                                    "children": [
+                                                                        {
+                                                                            "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 3 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                                            "side": "right",
+                                                                            "name": "ntclose ntclose ntclose ntclose ntterminateprocess > 0.0",
+                                                                            "type": "numerical",
+                                                                            "size": 3.0
+                                                                        },
+                                                                        {
+                                                                            "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 1 of Spyware, 2 of Trojan, 3 of Virus, 0 of Worms",
+                                                                            "side": "left",
+                                                                            "name": "ntclose ntclose ntclose ntclose ntterminateprocess <= 0.0",
+                                                                            "type": "numerical",
+                                                                            "size": 6.0,
+                                                                            "children": [
+                                                                                {
+                                                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 1 of Spyware, 2 of Trojan, 0 of Virus, 0 of Worms",
+                                                                                    "side": "right",
+                                                                                    "name": "ldrloaddll ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress > 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 3.0
+                                                                                },
+                                                                                {
+                                                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 3 of Virus, 0 of Worms",
+                                                                                    "side": "left",
+                                                                                    "name": "ldrloaddll ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress <= 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 3.0
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "pred": "1 of Adware, 3 of Backdoor, 3 of Downloader, 10 of Dropper, 7 of Spyware, 7 of Trojan, 186 of Virus, 11 of Worms",
+                                            "side": "left",
+                                            "name": "copyfilea <= 0.0",
+                                            "type": "numerical",
+                                            "size": 228.0,
+                                            "children": [
+                                                {
+                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 7 of Dropper, 2 of Spyware, 2 of Trojan, 0 of Virus, 0 of Worms",
+                                                    "side": "right",
+                                                    "name": "getfileattributesw findfirstfileexw ntclose findfirstfileexw ntclose findfirstfileexw ntclose > 0.0",
+                                                    "type": "numerical",
+                                                    "size": 11.0,
+                                                    "children": [
+                                                        {
+                                                            "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 7 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                            "side": "right",
+                                                            "name": "ntcreatemutant getnativesysteminfo getsystemwindowsdirectoryw getsystemwindowsdirectoryw > 0.0",
+                                                            "type": "numerical",
+                                                            "size": 7.0
+                                                        },
+                                                        {
+                                                            "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 2 of Spyware, 2 of Trojan, 0 of Virus, 0 of Worms",
+                                                            "side": "left",
+                                                            "name": "ntcreatemutant getnativesysteminfo getsystemwindowsdirectoryw getsystemwindowsdirectoryw <= 0.0",
+                                                            "type": "numerical",
+                                                            "size": 4.0,
+                                                            "children": [
+                                                                {
+                                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 2 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                                    "side": "right",
+                                                                    "name": "regqueryvalueexw regqueryvalueexw regqueryvalueexw regqueryvalueexw regqueryvalueexw regopenkeyexw > 0.0",
+                                                                    "type": "numerical",
+                                                                    "size": 2.0
+                                                                },
+                                                                {
+                                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 2 of Trojan, 0 of Virus, 0 of Worms",
+                                                                    "side": "left",
+                                                                    "name": "regqueryvalueexw regqueryvalueexw regqueryvalueexw regqueryvalueexw regqueryvalueexw regopenkeyexw <= 0.0",
+                                                                    "type": "numerical",
+                                                                    "size": 2.0
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "pred": "1 of Adware, 3 of Backdoor, 3 of Downloader, 3 of Dropper, 5 of Spyware, 5 of Trojan, 186 of Virus, 11 of Worms",
+                                                    "side": "left",
+                                                    "name": "getfileattributesw findfirstfileexw ntclose findfirstfileexw ntclose findfirstfileexw ntclose <= 0.0",
+                                                    "type": "numerical",
+                                                    "size": 217.0,
+                                                    "children": [
+                                                        {
+                                                            "pred": "1 of Adware, 3 of Backdoor, 0 of Downloader, 0 of Dropper, 2 of Spyware, 4 of Trojan, 3 of Virus, 2 of Worms",
+                                                            "side": "right",
+                                                            "name": "ntprotectvirtualmemory ntprotectvirtualmemory ntprotectvirtualmemory > 0.0",
+                                                            "type": "numerical",
+                                                            "size": 15.0,
+                                                            "children": [
+                                                                {
+                                                                    "pred": "1 of Adware, 3 of Backdoor, 0 of Downloader, 0 of Dropper, 2 of Spyware, 0 of Trojan, 3 of Virus, 2 of Worms",
+                                                                    "side": "right",
+                                                                    "name": "getsystemdirectoryw > 0.0",
+                                                                    "type": "numerical",
+                                                                    "size": 11.0,
+                                                                    "children": [
+                                                                        {
+                                                                            "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 3 of Virus, 0 of Worms",
+                                                                            "side": "right",
+                                                                            "name": "seterrormode > 0.0",
+                                                                            "type": "numerical",
+                                                                            "size": 3.0
+                                                                        },
+                                                                        {
+                                                                            "pred": "1 of Adware, 3 of Backdoor, 0 of Downloader, 0 of Dropper, 2 of Spyware, 0 of Trojan, 0 of Virus, 2 of Worms",
+                                                                            "side": "left",
+                                                                            "name": "seterrormode <= 0.0",
+                                                                            "type": "numerical",
+                                                                            "size": 8.0,
+                                                                            "children": [
+                                                                                {
+                                                                                    "pred": "1 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 2 of Spyware, 0 of Trojan, 0 of Virus, 2 of Worms",
+                                                                                    "side": "right",
+                                                                                    "name": "ntfreevirtualmemory ntfreevirtualmemory ntallocatevirtualmemory > 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 5.0
+                                                                                },
+                                                                                {
+                                                                                    "pred": "0 of Adware, 3 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                                                    "side": "left",
+                                                                                    "name": "ntfreevirtualmemory ntfreevirtualmemory ntallocatevirtualmemory <= 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 3.0
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 4 of Trojan, 0 of Virus, 0 of Worms",
+                                                                    "side": "left",
+                                                                    "name": "getsystemdirectoryw <= 0.0",
+                                                                    "type": "numerical",
+                                                                    "size": 4.0
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "pred": "0 of Adware, 0 of Backdoor, 3 of Downloader, 3 of Dropper, 3 of Spyware, 1 of Trojan, 183 of Virus, 9 of Worms",
+                                                            "side": "left",
+                                                            "name": "ntprotectvirtualmemory ntprotectvirtualmemory ntprotectvirtualmemory <= 0.0",
+                                                            "type": "numerical",
+                                                            "size": 202.0,
+                                                            "children": [
+                                                                {
+                                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 1 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 4 of Worms",
+                                                                    "side": "right",
+                                                                    "name": "process32nextw process32nextw process32nextw process32nextw process32nextw process32nextw process32nextw ntclose > 0.0",
+                                                                    "type": "numerical",
+                                                                    "size": 5.0,
+                                                                    "children": [
+                                                                        {
+                                                                            "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 1 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                                            "side": "right",
+                                                                            "name": "ntclose ldrgetdllhandle ldrgetprocedureaddress ldrgetprocedureaddress > 0.0",
+                                                                            "type": "numerical",
+                                                                            "size": 1.0
+                                                                        },
+                                                                        {
+                                                                            "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 4 of Worms",
+                                                                            "side": "left",
+                                                                            "name": "ntclose ldrgetdllhandle ldrgetprocedureaddress ldrgetprocedureaddress <= 0.0",
+                                                                            "type": "numerical",
+                                                                            "size": 4.0
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "pred": "0 of Adware, 0 of Backdoor, 3 of Downloader, 2 of Dropper, 3 of Spyware, 1 of Trojan, 183 of Virus, 5 of Worms",
+                                                                    "side": "left",
+                                                                    "name": "process32nextw process32nextw process32nextw process32nextw process32nextw process32nextw process32nextw ntclose <= 0.0",
+                                                                    "type": "numerical",
+                                                                    "size": 197.0,
+                                                                    "children": [
+                                                                        {
+                                                                            "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 1 of Dropper, 2 of Spyware, 0 of Trojan, 0 of Virus, 1 of Worms",
+                                                                            "side": "right",
+                                                                            "name": "ldrgetprocedureaddress regopenkeyexa regopenkeyexa > 0.0",
+                                                                            "type": "numerical",
+                                                                            "size": 4.0,
+                                                                            "children": [
+                                                                                {
+                                                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 2 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                                                    "side": "right",
+                                                                                    "name": "getsystemmetrics ldrgetprocedureaddress drawtextexw getsystemmetrics getsystemmetrics getsystemmetrics > 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 2.0
+                                                                                },
+                                                                                {
+                                                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 1 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 1 of Worms",
+                                                                                    "side": "left",
+                                                                                    "name": "getsystemmetrics ldrgetprocedureaddress drawtextexw getsystemmetrics getsystemmetrics getsystemmetrics <= 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 2.0
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "pred": "0 of Adware, 0 of Backdoor, 3 of Downloader, 1 of Dropper, 1 of Spyware, 1 of Trojan, 183 of Virus, 4 of Worms",
+                                                                            "side": "left",
+                                                                            "name": "ldrgetprocedureaddress regopenkeyexa regopenkeyexa <= 0.0",
+                                                                            "type": "numerical",
+                                                                            "size": 193.0,
+                                                                            "children": [
+                                                                                {
+                                                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 1 of Trojan, 0 of Virus, 2 of Worms",
+                                                                                    "side": "right",
+                                                                                    "name": "setwindowshookexa > 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 3.0
+                                                                                },
+                                                                                {
+                                                                                    "pred": "0 of Adware, 0 of Backdoor, 3 of Downloader, 1 of Dropper, 1 of Spyware, 0 of Trojan, 183 of Virus, 2 of Worms",
+                                                                                    "side": "left",
+                                                                                    "name": "setwindowshookexa <= 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 190.0
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "pred": "280 of Adware, 762 of Backdoor, 420 of Downloader, 659 of Dropper, 636 of Spyware, 732 of Trojan, 416 of Virus, 709 of Worms",
+                            "side": "left",
+                            "name": "findfirstfileexw ntquerydirectoryfile <= 0.0",
+                            "type": "numerical",
+                            "size": 4614.0,
+                            "children": [
+                                {
+                                    "pred": "0 of Adware, 148 of Backdoor, 1 of Downloader, 0 of Dropper, 13 of Spyware, 2 of Trojan, 2 of Virus, 32 of Worms",
+                                    "side": "right",
+                                    "name": "copyfilea ntdelayexecution copyfilea > 0.0",
+                                    "type": "numerical",
+                                    "size": 198.0,
+                                    "children": [
+                                        {
+                                            "pred": "0 of Adware, 122 of Backdoor, 1 of Downloader, 0 of Dropper, 0 of Spyware, 1 of Trojan, 2 of Virus, 15 of Worms",
+                                            "side": "right",
+                                            "name": "internetopena > 0.0",
+                                            "type": "numerical",
+                                            "size": 141.0,
+                                            "children": [
+                                                {
+                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 3 of Worms",
+                                                    "side": "right",
+                                                    "name": "getsysteminfo ldrloaddll ldrgetprocedureaddress ldrloaddll ldrgetprocedureaddress > 0.0",
+                                                    "type": "numerical",
+                                                    "size": 3.0
+                                                },
+                                                {
+                                                    "pred": "0 of Adware, 122 of Backdoor, 1 of Downloader, 0 of Dropper, 0 of Spyware, 1 of Trojan, 2 of Virus, 12 of Worms",
+                                                    "side": "left",
+                                                    "name": "getsysteminfo ldrloaddll ldrgetprocedureaddress ldrloaddll ldrgetprocedureaddress <= 0.0",
+                                                    "type": "numerical",
+                                                    "size": 138.0,
+                                                    "children": [
+                                                        {
+                                                            "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 1 of Trojan, 2 of Virus, 1 of Worms",
+                                                            "side": "right",
+                                                            "name": "ntclose ntclose ntclose ntclose ntclose ntclose ntclose ntclose ntclose ntunmapviewofsection > 0.0",
+                                                            "type": "numerical",
+                                                            "size": 4.0,
+                                                            "children": [
+                                                                {
+                                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 1 of Trojan, 0 of Virus, 1 of Worms",
+                                                                    "side": "right",
+                                                                    "name": "ldrloaddll getsystemdirectoryw ldrgetdllhandle ntopenkey ntqueryvaluekey ntclose > 0.0",
+                                                                    "type": "numerical",
+                                                                    "size": 2.0,
+                                                                    "children": [
+                                                                        {
+                                                                            "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 1 of Worms",
+                                                                            "side": "right",
+                                                                            "name": "ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrloaddll ldrgetprocedureaddress ldrgetprocedureaddress ldrloaddll > 0.0",
+                                                                            "type": "numerical",
+                                                                            "size": 1.0
+                                                                        },
+                                                                        {
+                                                                            "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 1 of Trojan, 0 of Virus, 0 of Worms",
+                                                                            "side": "left",
+                                                                            "name": "ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrloaddll ldrgetprocedureaddress ldrgetprocedureaddress ldrloaddll <= 0.0",
+                                                                            "type": "numerical",
+                                                                            "size": 1.0
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 2 of Virus, 0 of Worms",
+                                                                    "side": "left",
+                                                                    "name": "ldrloaddll getsystemdirectoryw ldrgetdllhandle ntopenkey ntqueryvaluekey ntclose <= 0.0",
+                                                                    "type": "numerical",
+                                                                    "size": 2.0
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "pred": "0 of Adware, 122 of Backdoor, 1 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 11 of Worms",
+                                                            "side": "left",
+                                                            "name": "ntclose ntclose ntclose ntclose ntclose ntclose ntclose ntclose ntclose ntunmapviewofsection <= 0.0",
+                                                            "type": "numerical",
+                                                            "size": 134.0,
+                                                            "children": [
+                                                                {
+                                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 2 of Worms",
+                                                                    "side": "right",
+                                                                    "name": "ntprotectvirtualmemory ldrloaddll > 0.0",
+                                                                    "type": "numerical",
+                                                                    "size": 2.0
+                                                                },
+                                                                {
+                                                                    "pred": "0 of Adware, 122 of Backdoor, 1 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 9 of Worms",
+                                                                    "side": "left",
+                                                                    "name": "ntprotectvirtualmemory ldrloaddll <= 0.0",
+                                                                    "type": "numerical",
+                                                                    "size": 132.0,
+                                                                    "children": [
+                                                                        {
+                                                                            "pred": "0 of Adware, 0 of Backdoor, 1 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                                            "side": "right",
+                                                                            "name": "ntdelayexecution copyfilea > 0.52",
+                                                                            "type": "numerical",
+                                                                            "size": 1.0
+                                                                        },
+                                                                        {
+                                                                            "pred": "0 of Adware, 122 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 9 of Worms",
+                                                                            "side": "left",
+                                                                            "name": "ntdelayexecution copyfilea <= 0.52",
+                                                                            "type": "numerical",
+                                                                            "size": 131.0,
+                                                                            "children": [
+                                                                                {
+                                                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 1 of Worms",
+                                                                                    "side": "right",
+                                                                                    "name": "regsetvalueexa regclosekey regcreatekeyexa > 0.24",
+                                                                                    "type": "numerical",
+                                                                                    "size": 1.0
+                                                                                },
+                                                                                {
+                                                                                    "pred": "0 of Adware, 122 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 8 of Worms",
+                                                                                    "side": "left",
+                                                                                    "name": "regsetvalueexa regclosekey regcreatekeyexa <= 0.24",
+                                                                                    "type": "numerical",
+                                                                                    "size": 130.0
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "pred": "0 of Adware, 26 of Backdoor, 0 of Downloader, 0 of Dropper, 13 of Spyware, 1 of Trojan, 0 of Virus, 17 of Worms",
+                                            "side": "left",
+                                            "name": "internetopena <= 0.0",
+                                            "type": "numerical",
+                                            "size": 57.0,
+                                            "children": [
+                                                {
+                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 8 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                    "side": "right",
+                                                    "name": "regclosekey ntdelayexecution > 0.0",
+                                                    "type": "numerical",
+                                                    "size": 8.0
+                                                },
+                                                {
+                                                    "pred": "0 of Adware, 26 of Backdoor, 0 of Downloader, 0 of Dropper, 5 of Spyware, 1 of Trojan, 0 of Virus, 17 of Worms",
+                                                    "side": "left",
+                                                    "name": "regclosekey ntdelayexecution <= 0.0",
+                                                    "type": "numerical",
+                                                    "size": 49.0,
+                                                    "children": [
+                                                        {
+                                                            "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 8 of Worms",
+                                                            "side": "right",
+                                                            "name": "ntopenkeyex ntqueryvaluekey ntclose ldrloaddll ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress > 0.0",
+                                                            "type": "numerical",
+                                                            "size": 8.0
+                                                        },
+                                                        {
+                                                            "pred": "0 of Adware, 26 of Backdoor, 0 of Downloader, 0 of Dropper, 5 of Spyware, 1 of Trojan, 0 of Virus, 9 of Worms",
+                                                            "side": "left",
+                                                            "name": "ntopenkeyex ntqueryvaluekey ntclose ldrloaddll ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress <= 0.0",
+                                                            "type": "numerical",
+                                                            "size": 41.0,
+                                                            "children": [
+                                                                {
+                                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 4 of Worms",
+                                                                    "side": "right",
+                                                                    "name": "ntallocatevirtualmemory ntallocatevirtualmemory ntallocatevirtualmemory ntallocatevirtualmemory getfiletype getfiletype > 0.0",
+                                                                    "type": "numerical",
+                                                                    "size": 4.0
+                                                                },
+                                                                {
+                                                                    "pred": "0 of Adware, 26 of Backdoor, 0 of Downloader, 0 of Dropper, 5 of Spyware, 1 of Trojan, 0 of Virus, 5 of Worms",
+                                                                    "side": "left",
+                                                                    "name": "ntallocatevirtualmemory ntallocatevirtualmemory ntallocatevirtualmemory ntallocatevirtualmemory getfiletype getfiletype <= 0.0",
+                                                                    "type": "numerical",
+                                                                    "size": 37.0,
+                                                                    "children": [
+                                                                        {
+                                                                            "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 3 of Spyware, 1 of Trojan, 0 of Virus, 0 of Worms",
+                                                                            "side": "right",
+                                                                            "name": "ntfreevirtualmemory ntallocatevirtualmemory ldrgetdllhandle ldrgetprocedureaddress > 0.0",
+                                                                            "type": "numerical",
+                                                                            "size": 4.0,
+                                                                            "children": [
+                                                                                {
+                                                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 1 of Trojan, 0 of Virus, 0 of Worms",
+                                                                                    "side": "right",
+                                                                                    "name": "getsysteminfo ntallocatevirtualmemory ntallocatevirtualmemory ntallocatevirtualmemory ntallocatevirtualmemory ntallocatevirtualmemory ntallocatevirtualmemory ntallocatevirtualmemory ntprotectvirtualmemory > 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 1.0
+                                                                                },
+                                                                                {
+                                                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 3 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                                                    "side": "left",
+                                                                                    "name": "getsysteminfo ntallocatevirtualmemory ntallocatevirtualmemory ntallocatevirtualmemory ntallocatevirtualmemory ntallocatevirtualmemory ntallocatevirtualmemory ntallocatevirtualmemory ntprotectvirtualmemory <= 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 3.0
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "pred": "0 of Adware, 26 of Backdoor, 0 of Downloader, 0 of Dropper, 2 of Spyware, 0 of Trojan, 0 of Virus, 5 of Worms",
+                                                                            "side": "left",
+                                                                            "name": "ntfreevirtualmemory ntallocatevirtualmemory ldrgetdllhandle ldrgetprocedureaddress <= 0.0",
+                                                                            "type": "numerical",
+                                                                            "size": 33.0,
+                                                                            "children": [
+                                                                                {
+                                                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 1 of Spyware, 0 of Trojan, 0 of Virus, 2 of Worms",
+                                                                                    "side": "right",
+                                                                                    "name": "setfileattributesw > 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 3.0
+                                                                                },
+                                                                                {
+                                                                                    "pred": "0 of Adware, 26 of Backdoor, 0 of Downloader, 0 of Dropper, 1 of Spyware, 0 of Trojan, 0 of Virus, 3 of Worms",
+                                                                                    "side": "left",
+                                                                                    "name": "setfileattributesw <= 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 30.0
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "pred": "280 of Adware, 614 of Backdoor, 419 of Downloader, 659 of Dropper, 623 of Spyware, 730 of Trojan, 414 of Virus, 677 of Worms",
+                                    "side": "left",
+                                    "name": "copyfilea ntdelayexecution copyfilea <= 0.0",
+                                    "type": "numerical",
+                                    "size": 4416.0,
+                                    "children": [
+                                        {
+                                            "pred": "79 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 3 of Virus, 2 of Worms",
+                                            "side": "right",
+                                            "name": "ntquerydirectoryfile ntquerydirectoryfile ntclose > 0.0",
+                                            "type": "numerical",
+                                            "size": 84.0,
+                                            "children": [
+                                                {
+                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 3 of Virus, 2 of Worms",
+                                                    "side": "right",
+                                                    "name": "ntallocatevirtualmemory ntprotectvirtualmemory > 0.0",
+                                                    "type": "numerical",
+                                                    "size": 5.0,
+                                                    "children": [
+                                                        {
+                                                            "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 2 of Worms",
+                                                            "side": "right",
+                                                            "name": "regclosekey regopenkeyexw regclosekey regopenkeyexw regopenkeyexw regopenkeyexw regopenkeyexw regopenkeyexw > 0.0",
+                                                            "type": "numerical",
+                                                            "size": 2.0
+                                                        },
+                                                        {
+                                                            "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 3 of Virus, 0 of Worms",
+                                                            "side": "left",
+                                                            "name": "regclosekey regopenkeyexw regclosekey regopenkeyexw regopenkeyexw regopenkeyexw regopenkeyexw regopenkeyexw <= 0.0",
+                                                            "type": "numerical",
+                                                            "size": 3.0
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "pred": "79 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                    "side": "left",
+                                                    "name": "ntallocatevirtualmemory ntprotectvirtualmemory <= 0.0",
+                                                    "type": "numerical",
+                                                    "size": 79.0
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "pred": "201 of Adware, 614 of Backdoor, 419 of Downloader, 659 of Dropper, 623 of Spyware, 730 of Trojan, 411 of Virus, 675 of Worms",
+                                            "side": "left",
+                                            "name": "ntquerydirectoryfile ntquerydirectoryfile ntclose <= 0.0",
+                                            "type": "numerical",
+                                            "size": 4332.0,
+                                            "children": [
+                                                {
+                                                    "pred": "0 of Adware, 177 of Backdoor, 23 of Downloader, 11 of Dropper, 23 of Spyware, 132 of Trojan, 6 of Virus, 27 of Worms",
+                                                    "side": "right",
+                                                    "name": "drawtextexw getsystemmetrics getsystemmetrics getsystemmetrics getsystemmetrics getsystemmetrics getsystemmetrics getsystemmetrics getsystemmetrics findresourceexw > 0.0",
+                                                    "type": "numerical",
+                                                    "size": 399.0,
+                                                    "children": [
+                                                        {
+                                                            "pred": "0 of Adware, 12 of Backdoor, 6 of Downloader, 1 of Dropper, 2 of Spyware, 49 of Trojan, 0 of Virus, 6 of Worms",
+                                                            "side": "right",
+                                                            "name": "ldrloaddll seterrormode > 0.0",
+                                                            "type": "numerical",
+                                                            "size": 76.0,
+                                                            "children": [
+                                                                {
+                                                                    "pred": "0 of Adware, 10 of Backdoor, 1 of Downloader, 0 of Dropper, 1 of Spyware, 9 of Trojan, 0 of Virus, 6 of Worms",
+                                                                    "side": "right",
+                                                                    "name": "wsastartup > 0.0",
+                                                                    "type": "numerical",
+                                                                    "size": 27.0,
+                                                                    "children": [
+                                                                        {
+                                                                            "pred": "0 of Adware, 9 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                                            "side": "right",
+                                                                            "name": "getsystemmetrics ntclose ntopenkey getsystemmetrics > 0.0",
+                                                                            "type": "numerical",
+                                                                            "size": 9.0
+                                                                        },
+                                                                        {
+                                                                            "pred": "0 of Adware, 1 of Backdoor, 1 of Downloader, 0 of Dropper, 1 of Spyware, 9 of Trojan, 0 of Virus, 6 of Worms",
+                                                                            "side": "left",
+                                                                            "name": "getsystemmetrics ntclose ntopenkey getsystemmetrics <= 0.0",
+                                                                            "type": "numerical",
+                                                                            "size": 18.0,
+                                                                            "children": [
+                                                                                {
+                                                                                    "pred": "0 of Adware, 1 of Backdoor, 1 of Downloader, 0 of Dropper, 1 of Spyware, 0 of Trojan, 0 of Virus, 5 of Worms",
+                                                                                    "side": "right",
+                                                                                    "name": "getsystemmetrics findresourceexw > 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 8.0
+                                                                                },
+                                                                                {
+                                                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 9 of Trojan, 0 of Virus, 1 of Worms",
+                                                                                    "side": "left",
+                                                                                    "name": "getsystemmetrics findresourceexw <= 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 10.0
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "pred": "0 of Adware, 2 of Backdoor, 5 of Downloader, 1 of Dropper, 1 of Spyware, 40 of Trojan, 0 of Virus, 0 of Worms",
+                                                                    "side": "left",
+                                                                    "name": "wsastartup <= 0.0",
+                                                                    "type": "numerical",
+                                                                    "size": 49.0,
+                                                                    "children": [
+                                                                        {
+                                                                            "pred": "0 of Adware, 0 of Backdoor, 2 of Downloader, 0 of Dropper, 1 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                                            "side": "right",
+                                                                            "name": "ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress > 0.29",
+                                                                            "type": "numerical",
+                                                                            "size": 3.0,
+                                                                            "children": [
+                                                                                {
+                                                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 1 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                                                    "side": "right",
+                                                                                    "name": "ntqueryattributesfile loadstringa > 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 1.0
+                                                                                },
+                                                                                {
+                                                                                    "pred": "0 of Adware, 0 of Backdoor, 2 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                                                    "side": "left",
+                                                                                    "name": "ntqueryattributesfile loadstringa <= 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 2.0
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "pred": "0 of Adware, 2 of Backdoor, 3 of Downloader, 1 of Dropper, 0 of Spyware, 40 of Trojan, 0 of Virus, 0 of Worms",
+                                                                            "side": "left",
+                                                                            "name": "ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress <= 0.29",
+                                                                            "type": "numerical",
+                                                                            "size": 46.0,
+                                                                            "children": [
+                                                                                {
+                                                                                    "pred": "0 of Adware, 0 of Backdoor, 3 of Downloader, 0 of Dropper, 0 of Spyware, 1 of Trojan, 0 of Virus, 0 of Worms",
+                                                                                    "side": "right",
+                                                                                    "name": "ntduplicateobject ldrunloaddll ntclose ntopenthread ldrunloaddll ldrunloaddll > 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 4.0
+                                                                                },
+                                                                                {
+                                                                                    "pred": "0 of Adware, 2 of Backdoor, 0 of Downloader, 1 of Dropper, 0 of Spyware, 39 of Trojan, 0 of Virus, 0 of Worms",
+                                                                                    "side": "left",
+                                                                                    "name": "ntduplicateobject ldrunloaddll ntclose ntopenthread ldrunloaddll ldrunloaddll <= 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 42.0
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "pred": "0 of Adware, 165 of Backdoor, 17 of Downloader, 10 of Dropper, 21 of Spyware, 83 of Trojan, 6 of Virus, 21 of Worms",
+                                                            "side": "left",
+                                                            "name": "ldrloaddll seterrormode <= 0.0",
+                                                            "type": "numerical",
+                                                            "size": 323.0,
+                                                            "children": [
+                                                                {
+                                                                    "pred": "0 of Adware, 54 of Backdoor, 1 of Downloader, 0 of Dropper, 1 of Spyware, 5 of Trojan, 0 of Virus, 4 of Worms",
+                                                                    "side": "right",
+                                                                    "name": "wsastartup > 0.0",
+                                                                    "type": "numerical",
+                                                                    "size": 65.0,
+                                                                    "children": [
+                                                                        {
+                                                                            "pred": "0 of Adware, 0 of Backdoor, 1 of Downloader, 0 of Dropper, 1 of Spyware, 1 of Trojan, 0 of Virus, 1 of Worms",
+                                                                            "side": "right",
+                                                                            "name": "ldrloaddll ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrloaddll > 0.0",
+                                                                            "type": "numerical",
+                                                                            "size": 4.0,
+                                                                            "children": [
+                                                                                {
+                                                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 1 of Spyware, 1 of Trojan, 0 of Virus, 1 of Worms",
+                                                                                    "side": "right",
+                                                                                    "name": "regopenkeyexa regopenkeyexa ntopenkey > 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 3.0
+                                                                                },
+                                                                                {
+                                                                                    "pred": "0 of Adware, 0 of Backdoor, 1 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                                                    "side": "left",
+                                                                                    "name": "regopenkeyexa regopenkeyexa ntopenkey <= 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 1.0
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "pred": "0 of Adware, 54 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 4 of Trojan, 0 of Virus, 3 of Worms",
+                                                                            "side": "left",
+                                                                            "name": "ldrloaddll ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrloaddll <= 0.0",
+                                                                            "type": "numerical",
+                                                                            "size": 61.0,
+                                                                            "children": [
+                                                                                {
+                                                                                    "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 2 of Worms",
+                                                                                    "side": "right",
+                                                                                    "name": "ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress seterrormode > 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 2.0
+                                                                                },
+                                                                                {
+                                                                                    "pred": "0 of Adware, 54 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 4 of Trojan, 0 of Virus, 1 of Worms",
+                                                                                    "side": "left",
+                                                                                    "name": "ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress seterrormode <= 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 59.0
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "pred": "0 of Adware, 111 of Backdoor, 16 of Downloader, 10 of Dropper, 20 of Spyware, 78 of Trojan, 6 of Virus, 17 of Worms",
+                                                                    "side": "left",
+                                                                    "name": "wsastartup <= 0.0",
+                                                                    "type": "numerical",
+                                                                    "size": 258.0,
+                                                                    "children": [
+                                                                        {
+                                                                            "pred": "0 of Adware, 9 of Backdoor, 9 of Downloader, 5 of Dropper, 6 of Spyware, 34 of Trojan, 2 of Virus, 5 of Worms",
+                                                                            "side": "right",
+                                                                            "name": "ldrgetprocedureaddress drawtextexw getsystemmetrics getsystemmetrics getsystemmetrics getsystemmetrics getsystemmetrics > 0.0",
+                                                                            "type": "numerical",
+                                                                            "size": 70.0,
+                                                                            "children": [
+                                                                                {
+                                                                                    "pred": "0 of Adware, 1 of Backdoor, 5 of Downloader, 1 of Dropper, 2 of Spyware, 0 of Trojan, 0 of Virus, 2 of Worms",
+                                                                                    "side": "right",
+                                                                                    "name": "regopenkeyexa regopenkeyexa > 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 11.0
+                                                                                },
+                                                                                {
+                                                                                    "pred": "0 of Adware, 8 of Backdoor, 4 of Downloader, 4 of Dropper, 4 of Spyware, 34 of Trojan, 2 of Virus, 3 of Worms",
+                                                                                    "side": "left",
+                                                                                    "name": "regopenkeyexa regopenkeyexa <= 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 59.0
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "pred": "0 of Adware, 102 of Backdoor, 7 of Downloader, 5 of Dropper, 14 of Spyware, 44 of Trojan, 4 of Virus, 12 of Worms",
+                                                                            "side": "left",
+                                                                            "name": "ldrgetprocedureaddress drawtextexw getsystemmetrics getsystemmetrics getsystemmetrics getsystemmetrics getsystemmetrics <= 0.0",
+                                                                            "type": "numerical",
+                                                                            "size": 188.0,
+                                                                            "children": [
+                                                                                {
+                                                                                    "pred": "0 of Adware, 33 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                                                    "side": "right",
+                                                                                    "name": "ntclose ntcreatemutant > 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 33.0
+                                                                                },
+                                                                                {
+                                                                                    "pred": "0 of Adware, 69 of Backdoor, 7 of Downloader, 5 of Dropper, 14 of Spyware, 44 of Trojan, 4 of Virus, 12 of Worms",
+                                                                                    "side": "left",
+                                                                                    "name": "ntclose ntcreatemutant <= 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 155.0
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "pred": "201 of Adware, 437 of Backdoor, 396 of Downloader, 648 of Dropper, 600 of Spyware, 598 of Trojan, 405 of Virus, 648 of Worms",
+                                                    "side": "left",
+                                                    "name": "drawtextexw getsystemmetrics getsystemmetrics getsystemmetrics getsystemmetrics getsystemmetrics getsystemmetrics getsystemmetrics getsystemmetrics findresourceexw <= 0.0",
+                                                    "type": "numerical",
+                                                    "size": 3933.0,
+                                                    "children": [
+                                                        {
+                                                            "pred": "65 of Adware, 1 of Backdoor, 8 of Downloader, 4 of Dropper, 2 of Spyware, 2 of Trojan, 1 of Virus, 2 of Worms",
+                                                            "side": "right",
+                                                            "name": "ldrloaddll ldrgetprocedureaddress getfileversioninfosizew > 0.0",
+                                                            "type": "numerical",
+                                                            "size": 85.0,
+                                                            "children": [
+                                                                {
+                                                                    "pred": "65 of Adware, 0 of Backdoor, 1 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                                    "side": "right",
+                                                                    "name": "ldrgetprocedureaddress ldrgetprocedureaddress ldrloaddll ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress > 0.0",
+                                                                    "type": "numerical",
+                                                                    "size": 66.0,
+                                                                    "children": [
+                                                                        {
+                                                                            "pred": "0 of Adware, 0 of Backdoor, 1 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                                            "side": "right",
+                                                                            "name": "ldrloaddll ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrloaddll > 0.0",
+                                                                            "type": "numerical",
+                                                                            "size": 1.0
+                                                                        },
+                                                                        {
+                                                                            "pred": "65 of Adware, 0 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                                            "side": "left",
+                                                                            "name": "ldrloaddll ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrloaddll <= 0.0",
+                                                                            "type": "numerical",
+                                                                            "size": 65.0
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "pred": "0 of Adware, 1 of Backdoor, 7 of Downloader, 4 of Dropper, 2 of Spyware, 2 of Trojan, 1 of Virus, 2 of Worms",
+                                                                    "side": "left",
+                                                                    "name": "ldrgetprocedureaddress ldrgetprocedureaddress ldrloaddll ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress ldrgetprocedureaddress <= 0.0",
+                                                                    "type": "numerical",
+                                                                    "size": 19.0,
+                                                                    "children": [
+                                                                        {
+                                                                            "pred": "0 of Adware, 0 of Backdoor, 0 of Downloader, 4 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                                            "side": "right",
+                                                                            "name": "ldrgetprocedureaddress ldrgetprocedureaddress ldrloaddll ldrgetprocedureaddress ldrloaddll ldrgetprocedureaddress > 0.0",
+                                                                            "type": "numerical",
+                                                                            "size": 4.0
+                                                                        },
+                                                                        {
+                                                                            "pred": "0 of Adware, 1 of Backdoor, 7 of Downloader, 0 of Dropper, 2 of Spyware, 2 of Trojan, 1 of Virus, 2 of Worms",
+                                                                            "side": "left",
+                                                                            "name": "ldrgetprocedureaddress ldrgetprocedureaddress ldrloaddll ldrgetprocedureaddress ldrloaddll ldrgetprocedureaddress <= 0.0",
+                                                                            "type": "numerical",
+                                                                            "size": 15.0,
+                                                                            "children": [
+                                                                                {
+                                                                                    "pred": "0 of Adware, 1 of Backdoor, 1 of Downloader, 0 of Dropper, 2 of Spyware, 2 of Trojan, 1 of Virus, 2 of Worms",
+                                                                                    "side": "right",
+                                                                                    "name": "findresourceexw > 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 9.0
+                                                                                },
+                                                                                {
+                                                                                    "pred": "0 of Adware, 0 of Backdoor, 6 of Downloader, 0 of Dropper, 0 of Spyware, 0 of Trojan, 0 of Virus, 0 of Worms",
+                                                                                    "side": "left",
+                                                                                    "name": "findresourceexw <= 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 6.0
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "pred": "136 of Adware, 436 of Backdoor, 388 of Downloader, 644 of Dropper, 598 of Spyware, 596 of Trojan, 404 of Virus, 646 of Worms",
+                                                            "side": "left",
+                                                            "name": "ldrloaddll ldrgetprocedureaddress getfileversioninfosizew <= 0.0",
+                                                            "type": "numerical",
+                                                            "size": 3848.0,
+                                                            "children": [
+                                                                {
+                                                                    "pred": "0 of Adware, 91 of Backdoor, 2 of Downloader, 4 of Dropper, 7 of Spyware, 86 of Trojan, 2 of Virus, 28 of Worms",
+                                                                    "side": "right",
+                                                                    "name": "getsystemmetrics getsystemmetrics findresourceexw loadresource findresourceexw loadresource ntclose ntopenkey > 0.0",
+                                                                    "type": "numerical",
+                                                                    "size": 220.0,
+                                                                    "children": [
+                                                                        {
+                                                                            "pred": "0 of Adware, 72 of Backdoor, 1 of Downloader, 1 of Dropper, 1 of Spyware, 22 of Trojan, 0 of Virus, 10 of Worms",
+                                                                            "side": "right",
+                                                                            "name": "regopenkeyexw regqueryvalueexw regclosekey ntallocatevirtualmemory > 0.0",
+                                                                            "type": "numerical",
+                                                                            "size": 107.0,
+                                                                            "children": [
+                                                                                {
+                                                                                    "pred": "0 of Adware, 18 of Backdoor, 1 of Downloader, 0 of Dropper, 0 of Spyware, 14 of Trojan, 0 of Virus, 7 of Worms",
+                                                                                    "side": "right",
+                                                                                    "name": "ldrunloaddll > 0.01",
+                                                                                    "type": "numerical",
+                                                                                    "size": 40.0
+                                                                                },
+                                                                                {
+                                                                                    "pred": "0 of Adware, 54 of Backdoor, 0 of Downloader, 1 of Dropper, 1 of Spyware, 8 of Trojan, 0 of Virus, 3 of Worms",
+                                                                                    "side": "left",
+                                                                                    "name": "ldrunloaddll <= 0.01",
+                                                                                    "type": "numerical",
+                                                                                    "size": 67.0
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "pred": "0 of Adware, 19 of Backdoor, 1 of Downloader, 3 of Dropper, 6 of Spyware, 64 of Trojan, 2 of Virus, 18 of Worms",
+                                                                            "side": "left",
+                                                                            "name": "regopenkeyexw regqueryvalueexw regclosekey ntallocatevirtualmemory <= 0.0",
+                                                                            "type": "numerical",
+                                                                            "size": 113.0,
+                                                                            "children": [
+                                                                                {
+                                                                                    "pred": "0 of Adware, 4 of Backdoor, 0 of Downloader, 0 of Dropper, 0 of Spyware, 2 of Trojan, 0 of Virus, 9 of Worms",
+                                                                                    "side": "right",
+                                                                                    "name": "ntopenkey ntclose regopenkeyexw > 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 15.0
+                                                                                },
+                                                                                {
+                                                                                    "pred": "0 of Adware, 15 of Backdoor, 1 of Downloader, 3 of Dropper, 6 of Spyware, 62 of Trojan, 2 of Virus, 9 of Worms",
+                                                                                    "side": "left",
+                                                                                    "name": "ntopenkey ntclose regopenkeyexw <= 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 98.0
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "pred": "136 of Adware, 345 of Backdoor, 386 of Downloader, 640 of Dropper, 591 of Spyware, 510 of Trojan, 402 of Virus, 618 of Worms",
+                                                                    "side": "left",
+                                                                    "name": "getsystemmetrics getsystemmetrics findresourceexw loadresource findresourceexw loadresource ntclose ntopenkey <= 0.0",
+                                                                    "type": "numerical",
+                                                                    "size": 3628.0,
+                                                                    "children": [
+                                                                        {
+                                                                            "pred": "64 of Adware, 73 of Backdoor, 61 of Downloader, 251 of Dropper, 189 of Spyware, 101 of Trojan, 33 of Virus, 61 of Worms",
+                                                                            "side": "right",
+                                                                            "name": "findresourcea > 0.0",
+                                                                            "type": "numerical",
+                                                                            "size": 833.0,
+                                                                            "children": [
+                                                                                {
+                                                                                    "pred": "11 of Adware, 30 of Backdoor, 7 of Downloader, 13 of Dropper, 81 of Spyware, 11 of Trojan, 9 of Virus, 15 of Worms",
+                                                                                    "side": "right",
+                                                                                    "name": "wsastartup > 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 177.0
+                                                                                },
+                                                                                {
+                                                                                    "pred": "53 of Adware, 43 of Backdoor, 54 of Downloader, 238 of Dropper, 108 of Spyware, 90 of Trojan, 24 of Virus, 46 of Worms",
+                                                                                    "side": "left",
+                                                                                    "name": "wsastartup <= 0.0",
+                                                                                    "type": "numerical",
+                                                                                    "size": 656.0
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "pred": "72 of Adware, 272 of Backdoor, 325 of Downloader, 389 of Dropper, 402 of Spyware, 409 of Trojan, 369 of Virus, 557 of Worms",
+                                                                            "side": "left",
+                                                                            "name": "findresourcea <= 0.0",
+                                                                            "type": "numerical",
+                                                                            "size": 2795.0,
+                                                                            "children": [
+                                                                                {
+                                                                                    "pred": "0 of Adware, 6 of Backdoor, 60 of Downloader, 3 of Dropper, 2 of Spyware, 4 of Trojan, 3 of Virus, 8 of Worms",
+                                                                                    "side": "right",
+                                                                                    "name": "ntopenfile ntqueryinformationfile ntclose > 0.02",
+                                                                                    "type": "numerical",
+                                                                                    "size": 86.0
+                                                                                },
+                                                                                {
+                                                                                    "pred": "72 of Adware, 266 of Backdoor, 265 of Downloader, 386 of Dropper, 400 of Spyware, 405 of Trojan, 366 of Virus, 549 of Worms",
+                                                                                    "side": "left",
+                                                                                    "name": "ntopenfile ntqueryinformationfile ntclose <= 0.02",
+                                                                                    "type": "numerical",
+                                                                                    "size": 2709.0
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

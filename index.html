@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<style>.axis path,
+		.axis line {
+			fill: none;
+			stroke: black;
+			shape-rendering: crispEdges;
+		}
+
+		.axis text {
+			font-family: sans-serif;
+			font-size: 11px;
+		}
+
+		.svg1-container {
+			display: inline-block;
+			position: relative;
+			width: 60%;	
+			vertical-align: top;
+			overflow: hidden;
+		}
+
+		.svg2-container {
+			display: inline-block;
+			position: relative;
+			width: 40%;
+			padding-bottom: 18%;
+			vertical-align: top;
+			overflow: hidden;
+		}
+
+		.svg3-container {
+			display: inline-block;
+			position: relative;
+			width: 100%;
+			vertical-align: top;
+			overflow: hidden;
+		}
+
+		.lines {	
+			stroke: white;
+			stroke-width: 5;
+		}
+		.nb_button{
+			fill: grey;
+		}
+		.nb_text{
+			fill: black;
+			font-weight: bold;
+			pointer-events: none;
+		}
+		.svg-content {
+			display: inline-block;
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+		.button rect {
+  
+  fill: #26654F;
+  stroke: none; 
+    
+}
+.button text {
+    
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	letter-spacing: 3px;
+	fill: #FFFFFF;
+	pointer-events: none;
+	text-anchor: middle;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	  
+  }
+  
+/*	
+		svg {
+ 	 	border: solid 1px blue;
+		display: block;
+		}
+*/
+		div {
+		}
+
+		</style>
+		<meta charset="utf-8">
+		<script type="text/javascript" src="d3.v3.min.js"></script>
+		<script type="text/javascript" src="d3.button.js"></script>
+	</head>
+	<body>
+		<div></div>
+		<script type="text/javascript">
+
+			//Width and height
+			var margin = {top: 20, right: 120, bottom: 20, left: 180},
+    		width = 2000 + 960 - margin.right - margin.left,
+			height = 1200 - margin.top - margin.bottom;
+			
+			//Create SVG element
+			var padding = 20;
+			nodes = [1,2,3,4,5]
+			links = []
+			for(i=0; i < nodes.length-1; i++){
+				links.push([nodes[i],nodes[i+1]])
+			}
+			console.log(links)
+		
+			var butts = [{label: "NEXT", x: '87%', y: '80%', function: function(){ fnA(); } },
+			{label: "BACK", x: '1%', y: '80%', function: function(){ fnB(); } }];
+
+		var svg1 = d3.select("div").append("svg")
+			.classed("svg1-container", true) 
+			.attr("preserveAspectRatio", "xMinYMin meet")
+			.attr("viewBox", "0 0 1000 900")
+			.style("background-color", "#ffb5b0")
+			.style("background-opacity", 0.3);
+
+		var svg2 = d3.select("div").append("svg")
+			.classed("svg2-container", true) 
+			.attr("preserveAspectRatio", "xMinYMin meet")
+			.attr("viewBox", "0 0 1000 900")
+			.style("background-color", "#c7d8ff");
+		
+		var svg3 = d3.select("div").append("svg")
+			.classed("svg3-container", true) 
+			.attr("preserveAspectRatio", "xMidYMid meet")
+			.attr("viewBox", "0 0 1000 300 ")
+			.style("background-color", '#efc7ff');
+
+		var nodes3 = svg3.selectAll('rect') // Get all the rectangles in the svg
+				.data(nodes) 
+				.enter() 
+				.append('rect') 
+				.attr('x', function(d,i){ return (((100/nodes.length)*i)+5) + "%"}) // Begin setting attributes
+				.attr('y', '30%')
+				.attr('height', '30%')
+				.attr('width', '9%');
+
+		
+		var lines3 = svg3.selectAll("line").data(links)
+			.enter().append("line")
+			.classed("lines", true) 
+			.attr("x1", function (d, i) {
+				return (((100/nodes.length)*i)+5)+9 + "%"
+			})
+			.attr("y1", function (d) {
+				return '45%'
+			})
+			.attr("x2", function (d, i) {
+				return (((100/nodes.length)*(i+1))+5) + "%"
+			})
+			.attr("y2", function (d) {
+				return '45%'
+			})
+		
+		var nodes1 = svg1.selectAll('rect') // Get all the rectangles in the svg
+			.data(nodes) 
+			.enter() 
+			.append('rect') 
+			.attr('x', '10%')
+			.attr('y', function(d,i){ return (((100/nodes.length)*i)+5) + "%"}) // Begin setting attributes)
+			.attr('height', '10%')
+			.attr('width', '9%');
+
+		var lines1 = svg1.selectAll("line")
+			.data(links)
+			.enter().append("line")
+			.classed("lines", true) 
+			.attr("x1", '14.5%')
+			.attr("y1", function (d, i) {
+				return (((100/nodes.length)*i)+5)+10 + "%"
+			})
+			.attr("x2", '14.5%')
+			.attr("y2", function (d, i) {
+				return (((100/nodes.length)*(i+1))+5) + "%"
+			});
+		
+
+		var next_button = svg3.append('g');
+		var text = next_button.append("text")
+			.attr("x", '89.5%')
+			.attr("y", '90%')
+			.attr('dy',".35em")
+			.attr("text-anchor", "right")
+			.classed('nb_text', true)
+			.text("NEXT");
+        var bbox = text.node().getBBox();
+		var rect = next_button.insert("rect", "text")
+				.attr("x", '87%')
+				.attr("y", '80%')
+				.attr("height", '18%')
+				.attr("width", '12%')
+				.style("fill", "#ccc")
+				.style("fill-opacity", ".7")
+				.style("stroke", "#666")
+				.style("stroke-width", "1.5px")
+            	.on("click", function(){console.log("NEXT")});
+		
+		var back_button = svg3.append('g');
+		back_button.append("rect")
+				.attr("x", '1%')
+				.attr("y", '80%')
+				.attr("height", '18%')
+				.attr("width", '12%')
+				.style("fill", "#ccc")
+				.style("fill-opacity", ".7")
+				.style("stroke", "#666")
+				.style("stroke-width", "1.5px")
+				.on("click", function(){console.log("BACK")});
+		back_button.append("text")
+			.attr("x", '3.4%')
+			.attr("y", '90%')
+			.attr('dy',".35em")
+			.classed('nb_text', true)
+			.attr("text-anchor", "right")
+			.text("BACK");
+		
+			
+			
+		
+				
+			
+		</script>
+	</body>
+</html>
