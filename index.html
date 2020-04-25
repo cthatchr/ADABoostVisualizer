@@ -2,6 +2,9 @@
 <html lang="en">
 	<head>
 		<style>
+		.bodycolor{
+			background-color: rgb(202, 240, 255);
+		}
 		.node {
   			cursor: pointer;
 		}
@@ -44,7 +47,6 @@
 		.svg1-container {
 			display: inline-block;
 			position: relative;
-			width: 2000px;	
 			vertical-align: top;
 			margin: 0 auto;
 			overflow: scroll;
@@ -61,14 +63,26 @@
 		.svg3-container {
 			display: inline-block;
 			position: relative;
-			width: 100%;
 			margin: 0 auto;
 			vertical-align: top;
 			overflow: scroll;
 		}
-
+		.adanode{
+			stroke: rgb(0, 0, 0);
+			stroke-width: 2px;
+		}
+		.callnode{
+			stroke: rgb(0, 0, 0);
+			stroke-width: 2px;
+		}
+		.callnodetext{
+			font-size:29px;
+		  	font-family:Verdana;
+		  	stroke: black;
+		  	stroke-width:0.04em;
+			  }
 		.lines {	
-			stroke: white;
+			stroke: black;
 			stroke-width: 5;
 		}
 		.nb_button{
@@ -89,14 +103,9 @@
   		fill: #26654F;
   		stroke: none; 
     	}
-		.button text {
+		.bnc {
 			
-			font-family: 'Open Sans', sans-serif;
-			font-size: 12px;
-			letter-spacing: 3px;
-			fill: #FFFFFF;
 			pointer-events: none;
-			text-anchor: middle;
 			-moz-user-select: none;
 			-webkit-user-select: none;
 			-ms-user-select: none;
@@ -108,7 +117,7 @@
 			width: 2000px;
 			width: 50%;
   			margin: 0 auto;
-			border:2px solid #000;
+			border:3px solid #000;
 			overflow-x: scroll;
   			overflow-y: hidden;
 		}
@@ -126,7 +135,7 @@
 			width: 2000px;
 			width: 50%;
   			margin: 0 auto;
-			border:2px solid #000;
+			border:3px solid #000;
 			overflow-x: scroll;
   			overflow-y: hidden;
       }
@@ -136,7 +145,7 @@
 		<script type="text/javascript" src="d3.v3.min.js"></script>
 		<script type="text/javascript" src="d3.button.js"></script>
 	</head>
-	<body>
+	<body class=bodycolor>
 		<div id=svg1></div>
 		<div id=svg2></div>
 		<div id=svg3></div>
@@ -150,96 +159,125 @@
 			//Create SVG element
 			var padding = 20;
 			nodes = [1,2,3,4,5]
-			ADANodes = ['Tree1',"Tree2","Tree3","Tree4","Tree5"]
+			nodes01 = ['Tree1',"Tree2","Tree3","Tree4","Tree5","Tree6","Tree7","Tree8"]
+			weights = ['w1','w2','w3','w4']
+			calls = ['caaaaall1', 'call2','call3','call4','call5']
 			links = []
-			for(i=0; i < nodes.length-1; i++){
-				links.push([nodes[i],nodes[i+1]])
+			for(i=0; i < nodes01.length-1; i++){
+				links.push([nodes01[i],nodes01[i+1]])
 			}
 			console.log(links)
 		
-			var butts = [{label: "NEXT", x: '87%', y: '80%', function: function(){ fnA(); } },
-			{label: "BACK", x: '1%', y: '80%', function: function(){ fnB(); } }];
-
 		var svg1 = d3.select("#svg1").append("svg")
 			.classed("svg1-container", true)
 			.attr('height', '200px')
-			.attr('width', '2000px') // equal to the number of nodes
-			//.attr("preserveAspectRatio", "xMinYMin meet")
-			//.attr("viewBox", "0 0 300 50")
-			.style("background-color", "#ffb5b0")
-			.style("background-opacity", 0.3);
+			.attr('width', function(){return (300*nodes01.length)-50}) // equal to the number of nodes
+			.style("background-color", "#ffb5b0");
 
 		
 		var svg3 = d3.select("#svg3").append("svg")
 			.classed("svg3-container", true) 
-			.attr("preserveAspectRatio", "xMidYMid meet")
-			.attr("viewBox", "0 0 300 50")
+			.attr('height', '200px')
+			.attr('width', function(){return (300*calls.length)-50})
 			.style("background-color", '#efc7ff');
+
+
+		var CallNodes = svg3.selectAll("g")
+		  .data(calls).enter().append('g');
+
+		var callnode = CallNodes.append("g")
+			.attr("class", "callnode")
+			.data(calls)
 		
-		/*var adanode = svg1.selectAll("g.adanode")
-		  .data(ADAnodes)
-		  .on("click", console.log("Hello"));;*/
-
-		var ADAnodes = svg1.append("g")
-			.data(ADANodes)
-		  	.attr("class", "adanode")
-			.on("click", console.log("Hello"));
-
-		var rect = ADAnodes.selectAll('adanode').append("rect")
-			.attr("width", 133 + 8)
+		callnode.append('rect')
+			//.data(nodes01)
+			.attr("width", function(d,i){return getTextWidth(d, "29px Verdana")+20})
 		  	.attr("height", 70)
-			.attr('x', function(d,i){ return (100*i)+100}) // Begin setting attributes
+			.attr('x', function(d,i){ return callNodeX(calls, i)+50}) // Begin setting attributes
 			.attr('y', '30%')
 		  	.attr("rx",6)
 		  	.attr("ry",6)
-			.on("click", console.log("Hello"));;
+			.style('fill', "#ffffff");
 
+		callnode.append('text')
+			.attr('x', function(d,i){ return callNodeX(calls, i)+58})
+			.attr('y', '52%')
+			.attr("text-anchor", "start" )
+		  	.style("font-size","29px")
+		  	.style("font-family","Verdana")
+		  	.style("stroke","black")
+		  	.style("stroke-width","0.04em")
+			.text(function(d){return d})
+			.attr('class', 'callnodetext');
+		
+		/*var lines3 = svg3.selectAll("line").data(links)
+			.enter().append("line")
+			.classed("lines", true) 
+			.attr("x1", function (d, i) {
+				return (((100/nodes.length)*i)+5)+9 + "%"
+			})
+			.attr("y1", function (d) {
+				return '52.5%'
+			})
+			.attr("x2", function (d, i) {
+				return (((100/nodes.length)*(i+1))+5) + "%"
+			})
+			.attr("y2", function (d) {
+				return '52.5%'
+			})
+		*/
+
+			loadADANodes()		
+	function loadADANodes(){
+		var ADANodes = svg1.selectAll("g")
+		  .data(nodes01).enter().append('g');
+
+		var adanode = ADANodes.append("g")
+			.attr("class", "adanode")
+			.data(nodes01)
+			
+
+		adanode.append('rect')
+			//.data(nodes01)
+			.attr("width", 133 + 8)
+		  	.attr("height", 70)
+			.attr('x', function(d,i){ return (300*i)+50}) // Begin setting attributes
+			.attr('y', '30%')
+		  	.attr("rx",6)
+		  	.attr("ry",6)
+			.style('fill', "#ffffff")
+		
+		adanode.append('text')
+			.attr('x', function(d,i){ return (300*i)+75})
+			.attr('y', '52%')
+			.attr("text-anchor", "start" )
+		  	.style("font-size","29px")
+		  	.style("font-family","Verdana")
+		  	.style("stroke","black")
+		  	.style("stroke-width","0.04em")
+			.text(function(d){return d})
+			.attr('class', 'bnc');
 
 		var lines1 = svg1.selectAll("line")
 			.data(links)
 			.enter().append("line")
 			.classed("lines", true) 
 			.attr("x1", function (d, i) {
-				return (((100/nodes.length)*i)+5)+9 + "%"
-			})
+				return (300*(i))+191
+			}) 
 			.attr("y1", function (d) {
-				return '52.5%'
+				return '50%'
 			})
 			.attr("x2", function (d, i) {
-				return (((100/nodes.length)*(i+1))+5) + "%"
+				return (300*(i+1))+50 
 			})
 			.attr("y2", function (d) {
-				return '52.5%'
+				return '50%'
 			})
-		
-		var nodes3 = svg3.selectAll('rect') // Get all the rectangles in the svg
-			.data(nodes) 
-			.enter() 
-			.append('rect') 
-			.attr('x', function(d,i){ return (((100/nodes.length)*i)+5) + "%"}) // Begin setting attributes
-			.attr('y', '30%')
-			.attr('height', '45%')
-			.attr('width', '9%');
+	}
 
-		
-		var lines3 = svg3.selectAll("line").data(links)
-			.enter().append("line")
-			.classed("lines", true) 
-			.attr("x1", function (d, i) {
-				return (((100/nodes.length)*i)+5)+9 + "%"
-			})
-			.attr("y1", function (d) {
-				return '52.5%'
-			})
-			.attr("x2", function (d, i) {
-				return (((100/nodes.length)*(i+1))+5) + "%"
-			})
-			.attr("y2", function (d) {
-				return '52.5%'
-			})
+	function loadCalls(){}
 
-	
-	
 	var label_names;
 	
 	var TOTAL_SIZE;
@@ -331,10 +369,8 @@
 			.attr("width", getDepth(flare)*width/12 + margin.right + margin.left)
 			.attr("height", height + margin.top + margin.bottom)
 			.classed('svg2-constainer', true)
-			//.attr("width", '100%')
-			//.attr("height", height + margin.top + margin.bottom)
 			.append("g")
-			.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+			.attr("transform", "translate(" + margin.left + "," + (margin.top*2) + ")");
 			
 			
 	  TOTAL_SIZE = flare.size
@@ -425,7 +461,7 @@
 			.attr("y", "-74")
 			.attr("width", "20")
 			.attr("height", "20")
-			.on('click', console.log("Hello")); //load text into bottom
+			.on('click', console.log("LOAD TEXT FOR NODE")); //load text into bottom
 	
 		nodeEnter.append("text")
 		  .attr("x", function(d) { 
@@ -943,6 +979,29 @@
 	
 	}
 	
+	function getTextWidth(text, font) {
+    // if given, use cached canvas for better performance
+    // else, create new canvas
+    var canvas = getTextWidth.canvas || (getTextWidth.canvas = document.createElement("canvas"));
+    var context = canvas.getContext("2d");
+    context.font = font;
+    var metrics = context.measureText(text);
+    return metrics.width;
+};
+	function callNodeX(calls, i){
+		var linelength = 159
+		if(i==0){
+			return 0
+		}
+		else{
+			var total = 0
+			for (let step = 0; step < i; step++) {
+				total = total + getTextWidth(calls[step], "29px Verdana") + linelength + 20
+		}
+		console.log(i, total)
+		return total
+		}
+	}
 	</script>
 	</body>
 </html>
