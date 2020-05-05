@@ -161,7 +161,7 @@
 			nodes = [1,2,3,4,5]
 			nodes01 = ['Tree1',"Tree2","Tree3","Tree4","Tree5","Tree6","Tree7","Tree8"]
 			weights = ['w1','w2','w3','w4']
-			calls = ['caaaaall1', 'call2','call3','call4','call5']
+			calls = ['ldrloaddll', 'ldrgetprocedureaddress','seterrormode','regclosekey','ntallocatevirtualmemory']
 			links = []
 			for(i=0; i < nodes01.length-1; i++){
 				links.push([nodes01[i],nodes01[i+1]])
@@ -274,6 +274,13 @@
 			.attr("y2", function (d) {
 				return '50%'
 			})
+
+		var weights1 = svg1.selectAll('text')
+			.data(weights)
+			.enter().append("text")
+			.attr('x', function(d,i){ return (((300*(i))+191)+(300*(i+1))+50)/2 })
+			.attr('y', '40%')
+			.text(function(d){return d});
 	}
 
 	function loadCalls(){}
